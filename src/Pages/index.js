@@ -21,13 +21,14 @@ function Home() {
       <Hero />
     </div>
     <div className="mb-300px">
+        <About />
       {/* <Companies /> */}
     </div>
     <div className="mb-200px">
       {/* <Security /> */}
     </div>
     <div>
-      {/* <About /> */}
+    
     </div>
     {/* <Business /> */}
  {/* <Accordion/> */}
