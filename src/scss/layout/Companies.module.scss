@@ -1,0 +1,120 @@
+@use "../utils" as u;
+
+.wrapper {
+  main {
+    position: relative;
+    padding: u.rem(100) u.rem(70);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: -100px;
+
+    .title {
+      max-width: 40vw;
+      font-size: 2.2vw;
+    }
+
+    .stripeWithCircle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      display: flex;
+      align-items: center;
+      z-index: -30;
+      filter: drop-shadow(0px 4px 146px rgba(0, 0, 0, 0.52));
+
+      .bigCircle {
+        position: absolute;
+        top: 50%;
+        left: -16.4%;
+        transform: translateY(-50%);
+        width: 54%;
+        z-index: -20;
+        filter: none;
+        display: flex;
+        // border: 2px solid red;
+
+        .bitcoinIcon {
+          position: absolute;
+          top: 92%;
+          left: 50%;
+          width: 12%;
+          transform: translateX(-50%) rotate(-30deg);
+        }
+        .redCircle {
+          position: absolute;
+          top: 112%;
+          left: 44%;
+          width: 40%;
+          transform: translateX(-50%) rotate(-30deg);
+          opacity: 0.4;
+        }
+        .ethIcon {
+          position: absolute;
+          top: 124%;
+          left: 94%;
+          width: 12%;
+          transform: translateX(-50%);
+        }
+        .redCircle2 {
+          position: absolute;
+          top: 144%;
+          left: 110%;
+          width: u.rem(160);
+          width: 23%;
+          transform: translateX(-50%) rotate(-30deg);
+          opacity: 0.4;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .stripeAndCircle {
+        width: 100%;
+        z-index: -1;
+      }
+    }
+  }
+
+  section {
+    $size: 34vw;
+
+    margin-bottom: 0%;
+    z-index: -60;
+
+    position: relative;
+    width: $size;
+    height: $size;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      text-align: right;
+      font-size: 2.6vw;
+    }
+
+    .sectionBigCircle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -20;
+    }
+
+    .wonderfullClients {
+      position: absolute;
+      top: 28%;
+      right: 40%;
+      width: 100%;
+      height: 100%;
+      object-fit: 100% 100%;
+    }
+  }
+}

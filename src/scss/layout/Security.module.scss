@@ -1,0 +1,171 @@
+@use "../utils" as u;
+@use "../globals/colors" as colors;
+
+.wrapper {
+  position: relative;
+
+  .redCircleOuter {
+    position: absolute;
+    top: -20%;
+    right: -5%;
+    z-index: -20;
+    opacity: 0.4;
+    width: 23%;
+
+    @include u.breakpoint(small) {
+      display: none;
+    }
+  }
+  .redCircleOuter2 {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    z-index: -20;
+    opacity: 0.4;
+    width: 8%;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+  }
+
+  aside {
+    flex: 1;
+    margin-right: 4vw;
+    position: relative;
+
+    .redCircle {
+      position: absolute;
+      top: -6%;
+      left: -8%;
+      width: 48%;
+      z-index: -30;
+    }
+    .bitcoinIcon {
+      position: absolute;
+      bottom: -6%;
+      right: -8%;
+      width: 16%;
+      z-index: -30;
+    }
+  }
+  main {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .cardsredCircle {
+      position: absolute;
+      top: -50%;
+      left: 12%;
+      width: 16%;
+      z-index: -30;
+      opacity: 0.4;
+    }
+
+    & > :not(:last-child) {
+      margin-right: u.rem(30);
+    }
+  }
+
+  .github_button {
+    padding: u.rem(20) u.rem(40);
+    background-color: colors.$red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: u.rem(14);
+    box-shadow: 0 0 14px #ff1616;
+
+    & > :not(:last-child) {
+      margin-right: u.rem(20);
+    }
+
+    svg {
+      font-size: u.rem(40);
+    }
+  }
+
+  @include u.breakpoint(twoxLarge) {
+    .cards {
+      & > :not(:last-child) {
+        margin-right: u.rem(20);
+      }
+    }
+
+    .github_button {
+      padding: u.rem(12) u.rem(30);
+      border-radius: u.rem(10);
+
+      & > :not(:last-child) {
+        margin-right: u.rem(14);
+      }
+
+      svg {
+        font-size: u.rem(30);
+      }
+    }
+  }
+
+  @include u.breakpoint(large) {
+    section {
+      flex-direction: column;
+    }
+
+    aside {
+      margin-right: 0vw;
+      margin-bottom: 2rem;
+      max-width: 40rem;
+    }
+  }
+
+  @include u.breakpoint(small) {
+    .cards {
+      & > :not(:last-child) {
+        margin-right: u.rem(14);
+      }
+    }
+
+    .github_button {
+      padding: u.rem(10) u.rem(26);
+      border-radius: u.rem(6);
+
+      & > :not(:last-child) {
+        margin-right: u.rem(12);
+      }
+
+      svg {
+        font-size: u.rem(24);
+      }
+    }
+  }
+  @include u.breakpoint(xsmall) {
+    aside {
+      margin-right: 0vw;
+      margin-bottom: 1rem;
+    }
+
+    .cards {
+      display: grid;
+      align-items: unset;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.8rem;
+
+      & > :not(:last-child) {
+        margin-right: u.rem(0);
+      }
+    }
+  }
+
+  //   END
+}

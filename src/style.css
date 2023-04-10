@@ -1,0 +1,77 @@
+.bd-radius {
+  position: relative;
+  background: #ffffff00;
+  /*The background extends to the outside edge of the padding. No background is drawn beneath the border.*/
+  background-clip: padding-box;
+  border: solid 1px #ff1616;
+  border-radius: 10px;
+}
+
+.bg-grand {
+  border: solid 2px #ff1616;
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+}
+
+.form-head {
+  padding: 45px 35px;
+  width: 320px;
+  margin-left: auto;
+}
+.h-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.h-form input {
+  width: 90%;
+  height: 45px;
+  margin: 10px auto;
+  background: #6d6d6d;
+  border-radius: 8px;
+  padding: 20px;
+}
+.send-btn {
+  margin: auto;
+  background: linear-gradient(180deg, #ff1616 0%, #6d0000 100%);
+  border-radius: 10px;
+  padding: 6px 80px;
+  font-family: 'Space Grotesk', sans-serif;
+
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+
+
+  
+}
+.btn-modal{
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.header-form h1 {
+  padding-bottom: 10px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+font-size: 25px;
+}
+.header-form p {
+  padding-bottom: 6px;
+  font-family: 'Brinnan thin';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #A8A8A8;
+  opacity: 1; /* Firefox */
+}
+.font-b{
+  font-family: 'Brinnan reg';
+}

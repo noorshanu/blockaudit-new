@@ -1,0 +1,201 @@
+@use "../utils" as u;
+@use "../globals/colors" as colors;
+
+.heroWrapper {
+  position: relative;
+ 
+  .splideSlider {
+    position: relative;
+    // left: -11%;
+    // width: 100% + 11%;
+    width: 100%;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 6%;
+      height: 100%;
+      background: linear-gradient(-90deg, transparent 10%, colors.$black 80%);
+      z-index: 100;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 20%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent 10%, colors.$black 80%);
+      z-index: 100;
+    }
+
+    @include u.breakpoint(large) {
+      left: 0%;
+      width: 100%;
+
+      &::before {
+        display: none;
+      }
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  .concentricCircle {
+    position: absolute;
+    top: 20%;
+    right: -14%;
+    transform: translateY(-50%);
+    z-index: -10;
+    height: 96%;
+  }
+
+  .hero {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    min-height: 68vh;
+
+    & > :not(:last-child) {
+      margin-right: 3vw;
+    }
+
+    main {
+      flex: 1;
+      width: 50%;
+
+      .preTitle {
+        max-width: u.rem(520);
+        text-align: center;
+
+        @include u.breakpoint(twoxLarge) {
+          max-width: u.rem(420);
+        }
+
+        @include u.breakpoint(large) {
+          max-width: 100%;
+        }
+      }
+
+      .defiTitle {
+        opacity: 0;
+      }
+
+      .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: u.rem(520);
+        // border: 2px solid red;
+
+        @include u.breakpoint(twoxLarge) {
+          max-width: u.rem(420);
+        }
+
+        @include u.breakpoint(large) {
+          max-width: 100%;
+        }
+
+        & > :not(:last-child) {
+          margin-right: u.rem(30);
+        }
+      }
+    }
+
+    aside {
+      flex: 1;
+      width: 50%;
+
+      // max-width: u.rem(641);
+    }
+  }
+
+  @include u.breakpoint(large) {
+    .hero {
+      flex-direction: column;
+      align-items: unset;
+      padding-top: 8rem;
+      text-align: center;
+      justify-content: center;
+
+      & > :not(:last-child) {
+        margin-right: 0vw;
+        margin-bottom: 3vw;
+      }
+
+      main {
+        max-width: 100%;
+        flex: unset;
+        width: 100%;
+        p {
+          margin: 0 auto;
+          margin-bottom: 2rem;
+        }
+      }
+
+      aside {
+        flex: unset;
+        width: 100%;
+        max-width: 36rem;
+        margin: 0 auto;
+      }
+    }
+
+    .concentricCircle {
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translateY(-50%) translateX(50%);
+      width: 90%;
+      opacity: 0.4;
+      z-index: -10;
+      height: unset;
+    }
+
+    .swiper {
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  @include u.breakpoint(xsmall) {
+    .hero {
+      & > :not(:last-child) {
+        margin-right: 0vw;
+        margin-bottom: 2rem;
+      }
+    }
+    .icons {
+      & > :not(:last-child) {
+        margin-right: u.rem(14) !important;
+      }
+    }
+
+    .concentricCircle {
+      width: 160%;
+    }
+  }
+}
+
+// .swiper {
+//   position: absolute;
+//   top: 30%;
+//   left: 5%;
+//   width: 40%;
+//   // border: 2px solid red;
+
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     width: 20%;
+//     height: 100%;
+//     background: linear-gradient(90deg, transparent 10%, colors.$black 80%);
+//     z-index: 100;
+//   }
+// }
