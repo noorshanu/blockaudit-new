@@ -11,11 +11,13 @@ function AboutSection() {
                     <h1>About Us</h1>
                 </div>
               
-             <div className='flex'>
+             <div className='flex mb-50px'>
                 <div className='d-about'>
                    
                     <p>Our personalised approach to client service, coupled with our dedication to delivering exceptional results, sets us apart as a trusted partner in the rapidly-evolving web3 ecosystem. </p>
                     <p>Partner with BlockAudit to take your web3 project to the next level and achieve unparalleled security and compliance.</p>
+               
+               <h2 className='reach'>Reach Out To Us</h2>
                 </div>
 
                 <div className='auit-box'>
