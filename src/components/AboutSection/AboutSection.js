@@ -6,7 +6,7 @@ function AboutSection() {
         <section>
           <div className="container-wrapper">
             <div className='about-box gradient-box '>
-                <div className='text-center'>
+                <div className='text-center ab-head'>
                     <h1>About Us</h1>
                 </div>
               
