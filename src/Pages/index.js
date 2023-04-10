@@ -6,6 +6,7 @@ import About from "../layouts/About";
 
 import Hero from "../layouts/Hero";
 import Navbar from "../layouts/Navbar";
+import AboutSection from "components/AboutSection/AboutSection";
 
 // import Popup from "../components/Popup";
 
@@ -25,7 +26,7 @@ function Home() {
       {/* <Companies /> */}
     </div>
     <div className="mb-200px">
-      {/* <Security /> */}
+    <AboutSection/>
     </div>
     <div>
     
