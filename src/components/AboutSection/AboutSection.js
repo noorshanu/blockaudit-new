@@ -1,4 +1,5 @@
 import React from 'react'
+import Audit from '../../assets/audit.png'
 
 function AboutSection() {
   return (
@@ -11,13 +12,52 @@ function AboutSection() {
                 </div>
               
              <div className='flex'>
-                <div>
+                <div className='d-about'>
                    
                     <p>Our personalised approach to client service, coupled with our dedication to delivering exceptional results, sets us apart as a trusted partner in the rapidly-evolving web3 ecosystem. </p>
                     <p>Partner with BlockAudit to take your web3 project to the next level and achieve unparalleled security and compliance.</p>
                 </div>
 
-                <div>
+                <div className='auit-box'>
+                  <div className='a-box'>
+                    <div>
+                      <img src={Audit}  alt='new'/>
+                    </div>
+                    <div className='detail-box'>
+                      <h1>350+</h1>
+                      <p>Audits</p>
+                    </div>
+                  </div>
+
+                  <div className='a-box'>
+                    <div>
+                      <img src={Audit}  alt='new'/>
+                    </div>
+                    <div className='detail-box'>
+                      <h1>350+</h1>
+                      <p>Audits</p>
+                    </div>
+                  </div>
+
+                  <div className='a-box'>
+                    <div>
+                      <img src={Audit}  alt='new'/>
+                    </div>
+                    <div className='detail-box'>
+                      <h1>350+</h1>
+                      <p>Audits</p>
+                    </div>
+                  </div>
+
+                  <div className='a-box'>
+                    <div>
+                      <img src={Audit}  alt='new'/>
+                    </div>
+                    <div className='detail-box'>
+                      <h1>350+</h1>
+                      <p>Audits</p>
+                    </div>
+                  </div>
                     
                 </div>
 
