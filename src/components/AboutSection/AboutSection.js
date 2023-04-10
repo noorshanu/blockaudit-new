@@ -17,6 +17,10 @@ function AboutSection() {
                     <p>Partner with BlockAudit to take your web3 project to the next level and achieve unparalleled security and compliance.</p>
                 </div>
 
+                <div>
+                    
+                </div>
+
              </div>
             </div>
           </div>
