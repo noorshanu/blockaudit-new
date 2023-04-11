@@ -1,5 +1,8 @@
 import React from 'react'
 import Audit from '../../assets/audit.png'
+import Kyc from '../../assets/kyc.png'
+import Consult from '../../assets/consult.png'
+import Secure from '../../assets/secure.png'
 
 function AboutSection() {
   return (
@@ -33,31 +36,31 @@ function AboutSection() {
 
                   <div className='a-box'>
                     <div>
-                      <img src={Audit}  alt='new'/>
+                      <img src={Kyc}  alt='new'/>
                     </div>
                     <div className='detail-box'>
-                      <h1>350+</h1>
-                      <p>Audits</p>
+                      <h1>85+</h1>
+                      <p>KYC</p>
                     </div>
                   </div>
 
                   <div className='a-box'>
                     <div>
-                      <img src={Audit}  alt='new'/>
+                      <img src={Consult}  alt='new'/>
                     </div>
                     <div className='detail-box'>
-                      <h1>350+</h1>
-                      <p>Audits</p>
+                      <h1>20+</h1>
+                      <p>Consultations</p>
                     </div>
                   </div>
 
                   <div className='a-box'>
                     <div>
-                      <img src={Audit}  alt='new'/>
+                      <img src={Secure}  alt='new'/>
                     </div>
                     <div className='detail-box'>
-                      <h1>350+</h1>
-                      <p>Audits</p>
+                      <h1>1B $+</h1>
+                      <p>Secured</p>
                     </div>
                   </div>
                     

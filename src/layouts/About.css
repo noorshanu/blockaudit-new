@@ -20,7 +20,7 @@
 }
 
 .gradient-box {
-  width: 90%;
+  width: 100%;
   margin: auto;
   max-width: 100%;
   position: relative;
@@ -33,7 +33,7 @@
   /* !importanté */
   border: solid 3px transparent;
   /* !importanté */
-  border-radius: 1em;
+  border-radius: 1.8em;
 }
 .gradient-box:before {
   content: "";
@@ -53,6 +53,9 @@
   margin-bottom: 55px;
   margin-top: 30px;
 }
+.d-about{
+  padding-right: 6em;
+}
 .ab-head h1 {
   font-family: "Space Grotesk", sans-serif;
   font-size: 50px;
@@ -64,8 +67,8 @@
 
 .auit-box {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 2rem;
+  grid-template-columns: repeat(2, 211px);
+  gap: 1.5rem;
 }
 
 .a-box {
@@ -107,6 +110,8 @@ padding-bottom: 1rem;
 .reach{
   font-family: 'Brinnan thin';
   text-decoration: underline;
+  
+  padding-top: 27px;
 font-size: 20px;
 font-style: italic;
 font-weight: 700;
