@@ -8,6 +8,7 @@ import Hero from "../layouts/Hero";
 import Navbar from "../layouts/Navbar";
 import AboutSection from "components/AboutSection/AboutSection";
 import Subscribe from "components/Subscribe/Subscribe";
+import SwiperCoverflow from "components/Team/Team";
 
 // import Popup from "../components/Popup";
 
@@ -25,6 +26,9 @@ function Home() {
     <div className="mb-300px">
         <About />
       {/* <Companies /> */}
+    </div>
+    <div className="mb-200px">
+      <SwiperCoverflow/>
     </div>
     <div className="mb-200px">
     <AboutSection/>
