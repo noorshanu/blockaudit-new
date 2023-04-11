@@ -34,17 +34,23 @@ function Footer() {
         </div>
         <div>
           <div className='lodo-section'>
-            <img src={Logo} alt=''/>
-            <p>Secure your web3 future with BlockAudit's expert solutions.</p>
-            <h2>contact@blockaudit.report</h2>
+            <h2>Services</h2>
+            <div>
+              <p>
+                Twitter 
+              </p>
+            </div>
           </div>
         </div>
 
         <div>
           <div className='lodo-section'>
-            <img src={Logo} alt=''/>
-            <p>Secure your web3 future with BlockAudit's expert solutions.</p>
-            <h2>contact@blockaudit.report</h2>
+            <h2>Other Links</h2>
+            <div>
+              <p>
+                Twitter 
+              </p>
+            </div>
           </div>
         </div>
 
