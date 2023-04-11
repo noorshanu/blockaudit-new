@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-
+import {BsTwitter,BsLinkedin,BsTelegram,BsGithub,BsMedium} from 'react-icons/bs'
 import Logo from "../assets/logo.png";
 
 function Footer() {
@@ -23,11 +23,11 @@ function Footer() {
           <div className="lodo-section">
             <h2>Social Media</h2>
             <div>
-              <p>Twitter</p>
-              <p>LinkedIn</p>
-              <p>Telegram</p>
-              <p>Github</p>
-              <p>Medium</p>
+              <p><span><BsTwitter/></span> Twitter</p>
+              <p><span><BsLinkedin/></span> LinkedIn</p>
+              <p><span><BsTelegram/></span> Telegram</p>
+              <p><span><BsGithub/></span> Github</p>
+              <p><span><BsMedium/></span>Medium</p>
               
             </div>
           </div>
