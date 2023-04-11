@@ -12,15 +12,15 @@ function Footer() {
 
       <div className="footer">
         <div>
-          <div className="lodo-section">
+          <div className="logo-section">
             <img src={Logo} alt="" />
-            <p>Secure your web3 future with BlockAudit's expert solutions.</p>
+            <p>Secure your web3 future with BlockAudit's expert <br/> solutions.</p>
             <h2>contact@blockaudit.report</h2>
           </div>
         </div>
 
         <div>
-          <div className="lodo-section">
+          <div className="social-section">
             <h2>Social Media</h2>
             <div>
               <p><span><BsTwitter/></span> Twitter</p>
@@ -33,7 +33,7 @@ function Footer() {
           </div>
         </div>
         <div>
-          <div className="lodo-section">
+          <div className="social-section">
             <h2>Services</h2>
             <div>
               <p>Audits</p>
@@ -46,7 +46,7 @@ function Footer() {
         </div>
 
         <div>
-          <div className="lodo-section">
+          <div className="social-section">
             <h2>Other Links</h2>
 
             <div className="">
@@ -59,20 +59,18 @@ function Footer() {
               <p href="/terms-condition" className="">
                 T & C{" "}
               </p>
-              <a href="/" className="l">
+              <p href="/" className="l">
                 Cookies Policy
-              </a>
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="div-block-289">
-        <div className="div-block-290">
-          <div className="text-block-113">Secured by : BlockAudit🔒</div>
-        </div>
-        <div className="text-block-114">
-          Copyright © 2022 | All Right Reserved
-        </div>
+      <div className="grey-grand"></div>
+      <div className="copyright">
+        <p>Copyright 2023 | All Rights Reserved</p>
+        <p>Secured By: <span className="" style={{color:'#fff',  fontFamily: 'Space Grotesk',}}>BlockAudit</span> </p>
+      
       </div>
     </div>
   );

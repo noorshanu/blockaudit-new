@@ -1,88 +1,135 @@
-.footer{
-   margin-top: 60px;
-    width: 100%;
-    border-top: 1px solid #000;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    justify-content: space-between;
-
+.footer {
+  margin-top: 60px;
+  width: 100%;
+  border-top: 1px solid #000;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 5rem;
+ padding-bottom: 50px;
+  justify-content: space-between;
 }
 
+.full-withradius {
+  position: relative;
+  background: #0a0908;
 
-
-  .full-withradius {
-	position: relative;
-	background: #0a0908;
-
-	/*The background extends to the outside edge of the padding. No background is drawn beneath the border.*/
-	background-clip: padding-box;
-    padding: 10px 20px;
-	border: solid 2px transparent;
-	border-radius: 10px;
-
-	
+  /*The background extends to the outside edge of the padding. No background is drawn beneath the border.*/
+  background-clip: padding-box;
+  padding: 10px 20px;
+  border: solid 2px transparent;
+  border-radius: 10px;
 }
-.flex-btn{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.flex-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 .full-withradius:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    margin: -2px; /* same as border width */
-    border-radius: inherit; /* inherit container box's radius */
-    background: linear-gradient(180deg, #FF1616 0%, #6D0000 100%);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -2px; /* same as border width */
+  border-radius: inherit; /* inherit container box's radius */
+  background: linear-gradient(180deg, #ff1616 0%, #6d0000 100%);
 }
 
-
-
-
-
-
-
 .text-span-52 {
-    color: #000;
-    font-weight: 700;
+  color: #000;
+  font-weight: 700;
 }
 
 .html-embed-13 {
-    display: none;
+  display: none;
 }
-
-
-
-
-
 
 .body-14 {
-    font-family: 'Mark Pro',sans-serif;
-    color: #131415;
-    font-weight: 500
+  font-family: "Mark Pro", sans-serif;
+  color: #131415;
+  font-weight: 500;
 }
 
+.border-top-grad {
+  background: linear-gradient(270deg, #ff1616 0%, #6d0000 100%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  height: 8px;
+}
 
+.active {
+  border-bottom: 2px solid red;
+  color: #ffffff;
+  cursor: pointer;
+}
+a {
+  color: #ffffff;
+}
+.logo-section p{
+    font-family: 'Brinnan thin';
+font-size: 14px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 25px;
+margin-top: 15px;
+color: #929292;
 
+}
+.logo-section h2{
+    font-family:'Brinnan reg';
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
 
-.border-top-grad{
-    background: linear-gradient(270deg, #FF1616 0%, #6D0000 100%);
+}
+.grey-grand{
+    background: #2D2D2D;
+    
 transform: matrix(-1, 0, 0, 1, 0, 0);
-height: 8px;
+height: 3px;
+margin: auto;
+width: 65%;
 }
 
-
-
-
-.active{
-    border-bottom: 2px solid red;
-    color: #ffffff;
-   cursor: pointer;
+.copyright{
+    margin: auto;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
 }
-a{
-    color: #ffffff;
+.copyright p{
+    padding-bottom: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+font-size: 18px;
+font-weight: 300;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #929292;
+
+}
+.social-section h2{
+    font-family: Space Grotesk;
+font-size: 25px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 12px;
+}
+
+.social-section p{
+    font-family: 'Brinnan thin';
+font-size: 16px;
+font-weight: 300;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color: #929292;
+
 }
