@@ -1,8 +1,10 @@
-footer{
+.footer{
     /* position: absolute;
     bottom: 0; */
     width: 100%;
     border-top: 1px solid #000;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
 
 }
 
@@ -127,7 +129,11 @@ footer{
     background-color: #3076f8;
     background-image: none
 }
-
+.border-top-grad{
+    background: linear-gradient(270deg, #FF1616 0%, #6D0000 100%);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+height: 8px;
+}
 @media screen and (max-width: 479px){
     /* footer{
         position: absolute;

@@ -1,12 +1,54 @@
 import React from 'react'
 import './Footer.css'
-import styles from "scss/layout/Hero.module.scss";
-// import useMediaQuery from "hooks/useMediaQuery";
+
+import Logo from '../assets/logo.png'
 import { NavLink } from 'react-router-dom'
 function Footer() {
   
   return (
     <div className='container-wrapper'>
+      <div className='border-top-grad'>
+
+      </div>
+
+      <div className='footer'>
+        <div>
+          <div className='lodo-section'>
+            <img src={Logo} alt=''/>
+            <p>Secure your web3 future with BlockAudit's expert solutions.</p>
+            <h2>contact@blockaudit.report</h2>
+          </div>
+        </div>
+
+        <div>
+          <div className='lodo-section'>
+            <h2>Social Media</h2>
+
+            <div>
+              <p>
+                Twitter 
+              </p>
+            </div>
+        
+          </div>
+        </div>
+        <div>
+          <div className='lodo-section'>
+            <img src={Logo} alt=''/>
+            <p>Secure your web3 future with BlockAudit's expert solutions.</p>
+            <h2>contact@blockaudit.report</h2>
+          </div>
+        </div>
+
+        <div>
+          <div className='lodo-section'>
+            <img src={Logo} alt=''/>
+            <p>Secure your web3 future with BlockAudit's expert solutions.</p>
+            <h2>contact@blockaudit.report</h2>
+          </div>
+        </div>
+
+      </div>
       <div className='div-block-289'>
         <div className='div-block-290'>
         <div className="text-block-113">Secured by :  BlockAudit🔒</div>

@@ -68,7 +68,7 @@
 .auit-box {
   display: grid;
   grid-template-columns: repeat(2, 211px);
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .a-box {
@@ -89,7 +89,7 @@
 }
 .detail-box p {
   font-family: "Brinnan thin";
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 22px;
   letter-spacing: 0em;
