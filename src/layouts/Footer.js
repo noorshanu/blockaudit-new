@@ -11,7 +11,7 @@ function Footer() {
 
       </div>
 
-      <div className='footer'>
+      <div className='footer mt-40px'>
         <div>
           <div className='lodo-section'>
             <img src={Logo} alt=''/>
