@@ -7,6 +7,7 @@ import About from "../layouts/About";
 import Hero from "../layouts/Hero";
 import Navbar from "../layouts/Navbar";
 import AboutSection from "components/AboutSection/AboutSection";
+import Subscribe from "components/Subscribe/Subscribe";
 
 // import Popup from "../components/Popup";
 
@@ -28,8 +29,8 @@ function Home() {
     <div className="mb-200px">
     <AboutSection/>
     </div>
-    <div>
-    
+    <div  className="mb-200px">
+    <Subscribe/>
     </div>
     {/* <Business /> */}
  {/* <Accordion/> */}
