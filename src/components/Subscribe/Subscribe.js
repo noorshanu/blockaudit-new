@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sub.css'
+import SubImg from '../../assets/sub.png'
 function Subscribe() {
   return (
     <div className='container-wrapper'>
@@ -14,7 +15,9 @@ function Subscribe() {
                         <button className='submit'>Submit</button>
                     </form>
                 </div>
-
+                <div style={{textAlign:'end'}}>
+                    <img src={SubImg} className='sub-img' alt=''/>
+                </div>
             </div>
         </div>
     </div>

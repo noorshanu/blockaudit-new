@@ -4,3 +4,12 @@ border-radius: 50px;
 padding: 20px 40px;
 
 }
+.sub-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-img{
+    height: 200px;
+    
+}
