@@ -6,7 +6,9 @@ import Logo from "../assets/logo.png";
 function Footer() {
   return (
     <div className="container-wrapper">
-      <div className="border-hrefp-grad"></div>
+      <div className="border-top-grad"> 
+      
+      </div>
 
       <div className="footer">
         <div>
