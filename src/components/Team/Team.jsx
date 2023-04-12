@@ -12,7 +12,7 @@ SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 
 export default function SwiperCoverflow() {
   return (
-    <div className="App">
+    <div className="container-wrapper">
       <Swiper
         navigation
         pagination={{ clickable: true }}
