@@ -4,6 +4,7 @@ import Main1 from "../assets/about/main1.png";
 import Main2 from "../assets/about/main2.png";
 import Main3 from "../assets/about/main3.png";
 import Main4 from "../assets/about/main4.png";
+import Block from '../assets/main-logo.png'
 
 function About() {
   return (
@@ -48,7 +49,9 @@ function About() {
                 <button>Explore</button>
               </div>
             </div>
-
+<div className="center-logo">
+  <img src={Block} alt="" />
+</div>
             <div className="boxes">
               <img src={Main3} alt="" />
               <div className="content">

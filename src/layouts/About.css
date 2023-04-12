@@ -193,3 +193,9 @@ text-align: center;
 
 
 }
+.center-logo{
+  position: absolute;
+  left: 49%;
+    margin-top: 414px;
+    transform: translate(-50%, -50%);
+}
