@@ -2,6 +2,8 @@ import React from "react";
 import './About.css'
 import Main1 from '../assets/about/main1.png'
 import Main2 from '../assets/about/main2.png'
+import Main3 from '../assets/about/main3.png'
+import Main4 from '../assets/about/main4.png'
 
 
 
@@ -21,7 +23,7 @@ function About() {
 
             <div className="grid-about">
 
-              <div>
+              <div className="boxes">
                 <img src={Main1} alt=""/>
                 <div className="content">
                   <p>Smart Contract</p>
@@ -32,8 +34,32 @@ function About() {
                 </div>
               </div>
 
-              <div>
+              <div className="boxes">
                 <img src={Main2} alt=""/>
+                <div className="content">
+                  <p>Smart Contract</p>
+                  <h1>AUDITS</h1>
+                  <p>Trust in our expertise to ensure optimal security and performance for your smart contracts within the dynamic web3 landscape.</p>
+                  <button>Explore</button>
+
+                </div>
+              </div>
+
+
+              <div className="boxes">
+                <img src={Main3} alt=""/>
+                <div className="content">
+                  <p>Smart Contract</p>
+                  <h1>AUDITS</h1>
+                  <p>Trust in our expertise to ensure optimal security and performance for your smart contracts within the dynamic web3 landscape.</p>
+                  <button>Explore</button>
+
+                </div>
+              </div>
+
+
+              <div className="boxes">
+                <img src={Main4} alt=""/>
                 <div className="content">
                   <p>Smart Contract</p>
                   <h1>AUDITS</h1>

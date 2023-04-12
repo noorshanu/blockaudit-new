@@ -122,6 +122,17 @@ text-align: left;
 }
 .grid-about{
   display: grid;
-  grid-template-columns: repeat(4 ,auto);
+  grid-template-columns: repeat(2 ,auto);
   justify-content: center;
+}
+.content{
+  position: absolute;
+  top: 98px;
+  left: 123px;
+}
+.boxes{
+  position: relative;
+  text-align: center;
+  color: white;
+
 }
