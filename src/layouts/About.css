@@ -131,16 +131,17 @@ text-align: left;
   left: 123px;
 }
 .content p{
-  font-family: Space Grotesk;
-font-size: 16px;
-font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;
+font-size: 14px;
+font-weight: 300;
 line-height: 16px;
 letter-spacing: 0em;
 text-align: center;
+padding-bottom: 5px;
 
 }
 .content h1{
-  font-family: Space Grotesk;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 51px;
