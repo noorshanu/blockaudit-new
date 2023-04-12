@@ -128,7 +128,15 @@ text-align: left;
 .content{
   position: absolute;
   top: 98px;
-  left: 123px;
+ 
+  padding: 1rem 9rem;
+}
+
+.content-2{
+  position: absolute;
+  top: 98px;
+  
+  padding: 1rem 9rem;
 }
 .content p{
   font-family: "Space Grotesk", sans-serif;
@@ -149,9 +157,39 @@ padding-bottom: 5px;
   text-align: center;
   
 }
+
+.content-2 p{
+  font-family: "Space Grotesk", sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+padding-bottom: 5px;
+
+}
+.content-2 h1{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+}
 .boxes{
   position: relative;
   text-align: center;
   color: white;
+
+}
+.con-p{
+  font-family: 'Brinnan thin' !important;
+font-size: 16px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
 
 }

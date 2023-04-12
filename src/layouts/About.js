@@ -12,7 +12,7 @@ function About() {
         <div className="container-wrapper">
           <div className="text-center why-head">
             <h1>What We Offer</h1>
-            <p>
+            <p className="">
               We specialize in providing a range of services tailored to web3
               projects. At BlockAudit, our dedicated team delivers expert
               support and customized solutions to ensure your project thrives in
@@ -26,7 +26,7 @@ function About() {
               <div className="content">
                 <p>Smart Contract</p>
                 <h1>AUDITS</h1>
-                <p>
+                <p className="con-p">
                   Trust in our expertise to ensure optimal security and
                   performance for your smart contracts within the dynamic web3
                   landscape.
@@ -37,10 +37,10 @@ function About() {
 
             <div className="boxes">
               <img src={Main2} alt="" />
-              <div className="content">
+              <div className="content-2">
                 <p>Smart Contract</p>
                 <h1>AUDITS</h1>
-                <p>
+                <p className="con-p">
                   Trust in our expertise to ensure optimal security and
                   performance for your smart contracts within the dynamic web3
                   landscape.
@@ -54,7 +54,7 @@ function About() {
               <div className="content">
                 <p>Smart Contract</p>
                 <h1>AUDITS</h1>
-                <p>
+                <p className="con-p">
                   Trust in our expertise to ensure optimal security and
                   performance for your smart contracts within the dynamic web3
                   landscape.
@@ -65,10 +65,10 @@ function About() {
 
             <div className="boxes">
               <img src={Main4} alt="" />
-              <div className="content">
+              <div className="content-2">
                 <p>Smart Contract</p>
                 <h1>AUDITS</h1>
-                <p>
+                <p className="con-p">
                   {" "}
                   Trust in our expertise to ensure optimal security and
                   performance for your smart contracts within the dynamic web3
