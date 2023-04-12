@@ -130,6 +130,24 @@ text-align: left;
   top: 98px;
   left: 123px;
 }
+.content p{
+  font-family: Space Grotesk;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.content h1{
+  font-family: Space Grotesk;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+}
 .boxes{
   position: relative;
   text-align: center;
