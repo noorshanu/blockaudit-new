@@ -11,7 +11,7 @@ function Subscribe() {
                     <h2>Subscribe to our Newsletter</h2>
                     <p>Stay ahead of the game with BlockAudit's newsletter. Get valuable insights, tips, and updates about web3 security. </p>
                     <form>
-                        <input type='email' className='input-sub' placeholder='Email'/>
+                        <input type='email' className='input-sub' placeholder='Enter Email'/>
                        
                     </form>
                     <button className='submit'>Submit</button>

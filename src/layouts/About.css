@@ -120,3 +120,8 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+.grid-about{
+  display: grid;
+  grid-template-columns: repeat(4 ,auto);
+  justify-content: center;
+}
