@@ -195,14 +195,20 @@ text-align: center;
 }
 .center-logo{
   position: absolute;
-  left: 49%;
+  left: 51%;
     margin-top: 414px;
     transform: translate(-50%, -50%);
 }
-
+.center-logo img{
+  width: fit-content;
+  height: 195px;
+}
 .btn-about{
   border: 1px solid #ff1616;
   padding: 3px 40px;
   border-radius: 10px;
   margin: auto;
+  color: #fff;
+  display: flex ;
+  align-items: center;
 }

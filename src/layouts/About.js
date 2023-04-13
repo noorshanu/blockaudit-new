@@ -5,7 +5,8 @@ import Main2 from "../assets/about/main2.png";
 import Main3 from "../assets/about/main3.png";
 import Main4 from "../assets/about/main4.png";
 import Block from '../assets/main-logo.png'
-import {GrShare} from 'react-icons/gr'
+import {RiShareBoxFill} from 'react-icons/ri'
+import {BsTelegram} from 'react-icons/bs'
 
 function About() {
   return (
@@ -33,21 +34,19 @@ function About() {
                   performance for your smart contracts within the dynamic web3
                   landscape.
                 </p>
-                <button className='btn-about fs-20px white weight-4 pointer flex-btn'>Explore <GrShare style={{color:'#fff'}}/></button>
+                <button className='btn-about fs-20px white weight-4 pointer flex-btn'>Explore <span style={{color:'#fff'}}><RiShareBoxFill /></span> </button>
               </div>
             </div>
 
             <div className="boxes">
               <img src={Main2} alt="" />
               <div className="content-2">
-                <p>Smart Contract</p>
-                <h1>AUDITS</h1>
+                <p>Advanced</p>
+                <h1>Pen Test</h1>
                 <p className="con-p">
-                  Trust in our expertise to ensure optimal security and
-                  performance for your smart contracts within the dynamic web3
-                  landscape.
+                Utilising advanced techniques to identify and eliminate potential security risks, you can rest assured that your project is secure and optimised.
                 </p>
-                <button>Explore</button>
+                <button className='btn-about fs-20px white weight-4 pointer flex-btn'>Explore <span style={{color:'#fff'}}><RiShareBoxFill /></span> </button>
               </div>
             </div>
 <div className="center-logo">
@@ -56,29 +55,25 @@ function About() {
             <div className="boxes">
               <img src={Main3} alt="" />
               <div className="content">
-                <p>Smart Contract</p>
-                <h1>AUDITS</h1>
+                <p>Risk</p>
+                <h1>Management</h1>
                 <p className="con-p">
-                  Trust in our expertise to ensure optimal security and
-                  performance for your smart contracts within the dynamic web3
-                  landscape.
+                Ensure industry-standard methodologies to evaluate your project's risk profile and identify and mitigate potential threats to your digital infrastructure.
                 </p>
-                <button>Explore</button>
+                <button className='btn-about fs-20px white weight-4 pointer flex-btn'>Contact Us <span style={{color:'#fff'}}><BsTelegram /></span> </button>
               </div>
             </div>
 
             <div className="boxes">
               <img src={Main4} alt="" />
               <div className="content-2">
-                <p>Smart Contract</p>
-                <h1>AUDITS</h1>
+                <p>Security Policy</p>
+                <h1>Consultation</h1>
                 <p className="con-p">
                   {" "}
-                  Trust in our expertise to ensure optimal security and
-                  performance for your smart contracts within the dynamic web3
-                  landscape.
+                  We develop customised security policies and provide guidance on regulatory compliances, risk management, and incident response planning.
                 </p>
-                <button>Explore</button>
+                <button className='btn-about fs-20px white weight-4 pointer flex-btn'>Contact Us <span style={{color:'#fff'}}><BsTelegram /></span> </button>
               </div>
             </div>
           </div>
