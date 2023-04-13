@@ -5,6 +5,7 @@ import Main2 from "../assets/about/main2.png";
 import Main3 from "../assets/about/main3.png";
 import Main4 from "../assets/about/main4.png";
 import Block from '../assets/main-logo.png'
+import {GrShare} from 'react-icons/gr'
 
 function About() {
   return (
@@ -32,7 +33,7 @@ function About() {
                   performance for your smart contracts within the dynamic web3
                   landscape.
                 </p>
-                <button>Explore</button>
+                <button className='btn-about fs-20px white weight-4 pointer flex-btn'>Explore <GrShare style={{color:'#fff'}}/></button>
               </div>
             </div>
 

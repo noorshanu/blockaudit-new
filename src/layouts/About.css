@@ -199,3 +199,10 @@ text-align: center;
     margin-top: 414px;
     transform: translate(-50%, -50%);
 }
+
+.btn-about{
+  border: 1px solid #ff1616;
+  padding: 3px 40px;
+  border-radius: 10px;
+  margin: auto;
+}
