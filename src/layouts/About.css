@@ -212,3 +212,25 @@ text-align: center;
   display: flex ;
   align-items: center;
 }
+
+.side-grid{
+  position: absolute;
+  margin-top: 46px;
+  width: 35px;
+  height: 411px;
+  left: 169px;
+  /* top: 34%; */
+  background: #FF1616;
+  filter: blur(94px);
+}
+
+.side-grid-right{
+  position: absolute;
+  margin-top: 46px;
+  width: 35px;
+  height: 411px;
+  right: 169px;
+  /* top: 34%; */
+  background: #FF1616;
+  filter: blur(94px);
+}

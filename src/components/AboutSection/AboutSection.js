@@ -9,7 +9,7 @@ function AboutSection() {
     <main>
         <section>
           <div className="container-wrapper">
-            <div className='about-box gradient-box '>
+            <div className='about-box gradient-box ' style={{position:'relative'}}>
                 <div className='text-center ab-head'>
                     <h1>About Us</h1>
                 </div>
@@ -69,6 +69,12 @@ function AboutSection() {
              </div>
             </div>
           </div>
+          <div className="side-grid">
+
+</div>
+<div className="side-grid-right">
+
+</div>
         </section>
       </main>
   )

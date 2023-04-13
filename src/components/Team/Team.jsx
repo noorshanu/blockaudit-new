@@ -1,9 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, EffectCoverflow } from "swiper";
-import CotImg from '../../assets/about/cot.png'
-import AvtImg from '../../assets/about/avatar.png'
-import './Team.css'
+import CotImg from "../../assets/about/cot.png";
+import AvtImg from "../../assets/about/avatar.png";
+import "./Team.css";
 
 // Import Swiper styles
 import "swiper/swiper.scss";
@@ -25,100 +25,104 @@ export default function SwiperCoverflow() {
           stretch: 0,
           depth: 100,
           modifier: 1,
-          slideShadows: true
+          slideShadows: true,
         }}
         slidesPerView={3}
         centeredSlides
         style={{ height: "500px" }}
       >
-        <SwiperSlide
-         
-        >
-         <div className="team-box">
-          <img src={CotImg} alt=""/>
-          <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
-          </div>
-          <div>
+        <SwiperSlide>
+          <div className="team-box">
+            <img src={CotImg} alt="" />
             <div>
-              <img src={AvtImg} alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              </p>
             </div>
             <div>
-              <p>John Doe</p>
+              <div>
+                <img src={AvtImg} alt="" />
+              </div>
+              <div>
+                <p>John Doe</p>
+              </div>
             </div>
           </div>
-
-         </div>
         </SwiperSlide>
-        <SwiperSlide
-        
-        >
-                 <div className="team-box">
-          <img src={CotImg} alt=""/>
-          <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
-          </div>
-          <div>
+        <SwiperSlide>
+          <div className="team-box">
+            <img src={CotImg} alt="" />
             <div>
-              <img src={AvtImg} alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              </p>
             </div>
             <div>
-              <p>John Doe</p>
+              <div>
+                <img src={AvtImg} alt="" />
+              </div>
+              <div>
+                <p>John Doe</p>
+              </div>
             </div>
           </div>
-
-         </div>
         </SwiperSlide>
-        <SwiperSlide
-     
-        >
-                <div className="team-box">
-          <img src={CotImg} alt=""/>
-          <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
-          </div>
-          <div>
+        <SwiperSlide>
+          <div className="team-box">
+            <img src={CotImg} alt="" />
             <div>
-              <img src={AvtImg} alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              </p>
             </div>
             <div>
-              <p>John Doe</p>
+              <div>
+                <img src={AvtImg} alt="" />
+              </div>
+              <div>
+                <p>John Doe</p>
+              </div>
             </div>
           </div>
-
-         </div>
         </SwiperSlide>
-  
 
-        
-     
-    
-        <SwiperSlide
-        
-        >
-                <div className="team-box">
-          <img src={CotImg} alt=""/>
-          <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
-          </div>
-          <div>
+        <SwiperSlide>
+          <div className="team-box">
+            <img src={CotImg} alt="" />
             <div>
-              <img src={AvtImg} alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              </p>
             </div>
             <div>
-              <p>John Doe</p>
+              <div>
+                <img src={AvtImg} alt="" />
+              </div>
+              <div>
+                <p>John Doe</p>
+              </div>
             </div>
           </div>
-
-         </div>
         </SwiperSlide>
       </Swiper>
     </div>

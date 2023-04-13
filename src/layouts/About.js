@@ -12,7 +12,7 @@ function About() {
   return (
     <main>
       <section>
-        <div className="container-wrapper">
+        <div className="container-wrapper" >
           <div className="text-center why-head">
             <h1>What We Offer</h1>
             <p className="">
@@ -78,6 +78,7 @@ function About() {
             </div>
           </div>
         </div>
+       
       </section>
     </main>
   );
