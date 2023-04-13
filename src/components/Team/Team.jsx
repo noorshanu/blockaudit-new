@@ -25,9 +25,9 @@ export default function SwiperCoverflow() {
           stretch: 0,
           depth: 100,
           modifier: 1,
-          slideShadows: false
+          slideShadows: true
         }}
-        slidesPerView={2}
+        slidesPerView={3}
         centeredSlides
         style={{ height: "500px" }}
       >
