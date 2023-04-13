@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import HoverImage from "react-hover-image";
 import Main1 from "../assets/about/main1.png";
 import Main2 from "../assets/about/main2.png";
 import Main3 from "../assets/about/main3.png";
@@ -39,7 +40,8 @@ function About() {
             </div>
 
             <div className="boxes">
-              <img src={Main2} alt="" />
+            <HoverImage src={Main2} hoverSrc={Main1} />
+              {/* <img src={Main2} alt="" /> */}
               <div className="content-2">
                 <p>Advanced</p>
                 <h1>Pen Test</h1>
