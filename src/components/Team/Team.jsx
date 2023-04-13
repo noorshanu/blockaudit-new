@@ -34,9 +34,8 @@ export default function SwiperCoverflow() {
         <SwiperSlide
          
         >
-          <img src={CotImg} alt=""/>
          <div className="team-box">
-          
+          <img src={CotImg} alt=""/>
           <div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
 
@@ -54,76 +53,72 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
          </div>
         </SwiperSlide>
         <SwiperSlide
-          style={{
-            backgroundImage:
-              "url(https://swiperjs.com/demos/images/nature-2.jpg)"
-          }}
+        
         >
-          Slide 2
+                 <div className="team-box">
+          <img src={CotImg} alt=""/>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
+          </div>
+          <div>
+            <div>
+              <img src={AvtImg} alt="" />
+            </div>
+            <div>
+              <p>John Doe</p>
+            </div>
+          </div>
+
+         </div>
         </SwiperSlide>
         <SwiperSlide
-          style={{
-            backgroundImage:
-              "url(https://swiperjs.com/demos/images/nature-3.jpg)"
-          }}
+     
         >
-          Slide 3
+                <div className="team-box">
+          <img src={CotImg} alt=""/>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
+          </div>
+          <div>
+            <div>
+              <img src={AvtImg} alt="" />
+            </div>
+            <div>
+              <p>John Doe</p>
+            </div>
+          </div>
+
+         </div>
         </SwiperSlide>
+  
+
+        
+     
+    
         <SwiperSlide
-          style={{
-            backgroundImage:
-              "url(https://swiperjs.com/demos/images/nature-4.jpg)"
-          }}
+        
         >
-          Slide 4
-        </SwiperSlide>
-        <SwiperSlide
-          style={{
-            backgroundImage:
-              "url(https://swiperjs.com/demos/images/nature-5.jpg)"
-          }}
-        >
-          Slide 5
-        </SwiperSlide>
-        <SwiperSlide
-          style={{
-            backgroundImage:
-              "url(https://swiperjs.com/demos/images/nature-6.jpg)"
-          }}
-        >
-          Slide 6
-        </SwiperSlide>
-        <SwiperSlide
-          style={{
-            backgroundImage:
-              "url(https://swiperjs.com/demos/images/nature-7.jpg)"
-          }}
-        >
-          Slide 7
-        </SwiperSlide>
-        <SwiperSlide
-          style={{
-            backgroundImage:
-              "url(https://swiperjs.com/demos/images/nature-8.jpg)"
-          }}
-        >
-          Slide 8
-        </SwiperSlide>
-        <SwiperSlide
-          style={{
-            backgroundImage:
-              "url(https://swiperjs.com/demos/images/nature-9.jpg)"
-          }}
-        >
-          Slide 9
-        </SwiperSlide>
-        <SwiperSlide
-          style={{
-            backgroundImage:
-              "url(https://swiperjs.com/demos/images/nature-10.jpg)"
-          }}
-        >
-          Slide 10
+                <div className="team-box">
+          <img src={CotImg} alt=""/>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
+          </div>
+          <div>
+            <div>
+              <img src={AvtImg} alt="" />
+            </div>
+            <div>
+              <p>John Doe</p>
+            </div>
+          </div>
+
+         </div>
         </SwiperSlide>
       </Swiper>
     </div>
