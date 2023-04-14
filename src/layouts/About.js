@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import HoverImage from "react-hover-image";
 import Main1 from "../assets/about/main1.png";
+import Main11 from "../assets/about/main11.png";
 import Main2 from "../assets/about/main2.png";
 import Main22 from "../assets/about/main22.png";
 import Main3 from "../assets/about/main3.png";
@@ -27,7 +28,8 @@ function About() {
 
           <div className="grid-about">
             <div className="boxes">
-              <img src={Main1} alt="" />
+              {/* <img src={Main1} alt="" /> */}
+              <HoverImage src={Main1} hoverSrc={Main11} />
               <div className="content">
                 <p>Smart Contract</p>
                 <h1>AUDITS</h1>
