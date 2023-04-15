@@ -161,17 +161,21 @@ function Navbar() {
                 onClick={() => {
                   setModalOpen(true);
                 }}
-                className='full-withradius fs-20px white weight-4 pointer flex-btn'
+                className='full-withradius fs-20px white weight-4 pointer flex-btn desk-btn'
               >
                 Telegram <BsTelegram/>
               </button>
+            
             </aside>
           
           </div>
-
+          <div className="flex-btn">
+          <span className=" fs-28px white weight-4 pointer mob-btn"><BsTelegram/></span>
           <button className={styles.hamburger} onClick={() => setIsOpen(true)}>
             <FiMenu color="white" />
           </button>
+          </div>
+          
         </div>
       </div>
 

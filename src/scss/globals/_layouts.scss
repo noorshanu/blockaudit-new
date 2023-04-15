@@ -44,3 +44,11 @@
 .flex.justify-end {
   justify-content: flex-end;
 }
+@media (max-width:768px) {
+  .container-wrapper {
+ 
+    width: 87%;
+   
+  }
+  
+}

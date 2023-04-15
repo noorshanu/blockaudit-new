@@ -14,7 +14,7 @@ function AboutSection() {
                     <h1>About Us</h1>
                 </div>
               
-             <div className='flex mb-50px'>
+             <div className='flex-about mb-50px'>
                 <div className='d-about'>
                    
                     <p>Our personalised approach to client service, coupled with our dedication to delivering exceptional results, sets us apart as a trusted partner in the rapidly-evolving web3 ecosystem. </p>
