@@ -75,3 +75,12 @@ font-size: 18px;
 .font-b{
   font-family: 'Brinnan reg';
 }
+
+@media (max-width:768px) {
+  .form-head {
+    padding: 45px 35px;
+    width: 320px;
+  
+    margin: auto;
+}  
+}
