@@ -314,3 +314,82 @@
   background: #ff1616;
   filter: blur(94px);
 }
+.desk-btn {
+  display: block;
+}
+.mob-btn {
+  display: none;
+}
+.flex-about {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .desk-btn {
+    display: none;
+  }
+  .mob-btn {
+    display: block;
+  }
+
+  .ab-head h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 31px;
+  }
+  .a-box {
+    display: flex;
+    gap: 0.7rem;
+  }
+  .flex-about {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .a-box img {
+    width: auto;
+    height: 55px;
+  }
+  .detail-box h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+  .gradient-box {
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+    position: relative;
+    padding: 2% 1.3em;
+  }
+  .d-about {
+    padding-right: 0em;
+    padding-top: 20px;
+  }
+
+  .auit-box {
+    display: grid;
+    grid-template-columns: repeat(2, 142px);
+    gap: 2rem;
+  }
+  .detail-box p {
+    font-family: "Brinnan thin";
+    font-size: 12px;
+  }
+
+  .d-about p {
+    font-family: "Brinnan thin";
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .reach {
+    font-family: "Brinnan thin";
+    text-decoration: underline;
+    padding-top: 27px;
+    font-size: 16px;
+  }
+  .side-grid-right {
+    display: none;
+  }
+}

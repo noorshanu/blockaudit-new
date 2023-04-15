@@ -54,3 +54,36 @@ letter-spacing: 0em;
 text-align: center;
 color: #fff;
 }
+@media (max-width:768px) {
+  .sub-box{
+    background: linear-gradient(180deg, #141414 0%, #0a0908  100%);
+border-radius: 20px;
+  }
+  .sub-flex {
+    padding-top:106px;
+    flex-direction: column;
+    gap: 5rem;
+}
+  .sub-texts{
+    margin: auto;
+  }
+
+  .input-sub {
+  
+    width: 260px;
+   
+}
+
+.sub-texts h2 {
+  
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+
+}
+
+.sub-texts p {
+  font-family: "Brinnan thin";
+  font-size: 14px;
+}
+}
