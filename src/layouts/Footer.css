@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 5rem;
- padding-bottom: 50px;
+  padding-bottom: 50px;
   justify-content: space-between;
 }
 
@@ -66,83 +66,108 @@
 a {
   color: #ffffff;
 }
-.logo-section p{
-    font-family: 'Brinnan thin';
-font-size: 14px;
-font-weight: 300;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
-margin-bottom: 25px;
-margin-top: 15px;
-color: #929292;
-
+.logo-section p {
+  font-family: "Brinnan thin";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  color: #929292;
 }
-.logo-section h2{
-    font-family:'Brinnan reg';
-font-size: 18px;
-font-weight: 700;
-line-height: 23px;
-letter-spacing: 0em;
-text-align: left;
-
+.logo-section h2 {
+  font-family: "Brinnan reg";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.grey-grand{
-    background: #2D2D2D;
-    
-transform: matrix(-1, 0, 0, 1, 0, 0);
-height: 3px;
-margin: auto;
-width: 65%;
+.grey-grand {
+  background: #2d2d2d;
+
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  height: 3px;
+  margin: auto;
+  width: 65%;
 }
 
-.copyright{
-    margin: auto;
-    text-align: center;
-    padding-top: 45px;
-    padding-bottom: 20px;
+.copyright {
+  margin: auto;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 20px;
 }
-.copyright p{
-    padding-bottom: 10px;
-    font-family: 'Space Grotesk', sans-serif;
-font-size: 18px;
-font-weight: 300;
-line-height: 23px;
-letter-spacing: 0em;
-text-align: center;
-color: #929292;
-
+.copyright p {
+  padding-bottom: 10px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #929292;
 }
-.social-section h2{
-    font-family: Space Grotesk;
-font-size: 25px;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
-margin-bottom: 12px;
-}
-
-.social-section p{
-    font-family: 'Brinnan thin';
-font-size: 16px;
-font-weight: 300;
-line-height: 31px;
-letter-spacing: 0em;
-text-align: left;
-color: #929292;
-
+.social-section h2 {
+  font-family: Space Grotesk;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 12px;
 }
 
-@media (max-width:768px) {
+.social-section p {
+  font-family: "Brinnan thin";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #929292;
+}
+
+@media (max-width: 768px) {
   .footer {
-
-  
     grid-template-columns: repeat(1, auto);
     gap: 4rem;
- 
-    
+
     justify-content: center;
   }
+  .logo-section {
+    text-align: center;
+  }
+  .logo-section p {
+    line-height: 14px;
+
+    text-align: center;
+  }
+  .logo-section h2 {
+    font-size: 14px;
+
+    text-align: center;
+  }
+
+  .social-section h2 {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align:center;
+    margin-bottom: 12px;
+  }
   
+  .social-section p {
+    font-family: "Brinnan thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #929292;
+  }
 }
