@@ -2,6 +2,65 @@
     background: linear-gradient(180deg, rgba(77, 77, 77, 0.38) 0%, rgba(16, 16, 16, 0.12) 100%);
 box-shadow: inset 0px 0px 44px rgba(0, 0, 0, 0.39);
 backdrop-filter: blur(50px);
-padding: 35px;
+padding: 60px;
 border-radius: 12px;
+}
+.swiper-slide{
+width: 750px !important;
+}
+
+.swiper-container{
+  padding-top: 50px !important;
+  overflow: unset !important;
+  z-index: 2;
+}
+
+.colon{
+    position: absolute;
+    top: -45px;
+} 
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    left: 22% !important;
+    right: auto;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    right: 22% !important;
+    left: auto;
+}
+
+.team-details p{
+    font-family: 'Brinnan thin';
+font-size: 18px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 20px;
+
+}
+.avatar-flex{
+    display: flex;
+    gap: 1.25rem;
+}
+.user-name{
+    font-family: 'Space Grotesk';
+font-size: 35px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.desi{
+    font-family: 'Brinnan thin';
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
 }

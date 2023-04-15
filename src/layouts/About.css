@@ -185,9 +185,12 @@ padding-bottom: 5px;
 }
 .boxes img{
   transition: transform .2s; /* Animation */
+  transition-timing-function: ease-in;
 }
 .boxes img:hover {
   /* transform: scale(1.0); */
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
 }
 .con-p{
   font-family: 'Brinnan thin' !important;
