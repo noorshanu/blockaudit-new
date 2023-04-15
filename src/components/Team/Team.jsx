@@ -16,6 +16,12 @@ SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 export default function SwiperCoverflow() {
   return (
     <div className="conatiner-wrapper">
+      <div className="black-grad-left">
+
+      </div>
+      <div className="black-grad-right">
+
+</div>
       <Swiper
         navigation
         pagination={{ clickable: true }}
@@ -25,7 +31,7 @@ export default function SwiperCoverflow() {
           stretch: 0,
           depth: 100,
           modifier: 1,
-          slideShadows: true,
+          slideShadows: false,
         }}
         slidesPerView={2}
         centeredSlides

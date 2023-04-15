@@ -26,7 +26,7 @@ width: 750px !important;
 }
 
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-    right: 22% !important;
+    right: 25% !important;
     left: auto;
 }
 
@@ -63,4 +63,22 @@ text-align: left;
     text-align: left;
     
 
+}
+.black-grad-left{
+    position: absolute;
+    width: 359px;
+    height: 501px;
+    left: 0px;
+    z-index: 4;
+    background: linear-gradient(90deg, #0a0908 28.96%, rgba(0, 0, 0, 0) 100%);
+}
+
+.black-grad-right{
+    position: absolute;
+    width: 366px;
+    height: 451px;
+    right: 0px;
+    margin-top: 46px;
+    z-index: 4;
+    background: linear-gradient(90deg, #141414d1 30.96%, rgb(10 9 8) 52%);
 }
