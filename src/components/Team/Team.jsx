@@ -10,6 +10,7 @@ import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 import "swiper/components/effect-coverflow/effect-coverflow.scss";
+import TeamMobo from "./TeamMobo";
 
 SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 
@@ -22,6 +23,11 @@ export default function SwiperCoverflow() {
       <div className="black-grad-right">
 
 </div>
+<div className="mobo-info">
+  <TeamMobo/>
+
+</div>
+<div className="team-desktop">
       <Swiper
         navigation
         pagination={{ clickable: true }}
@@ -135,6 +141,7 @@ export default function SwiperCoverflow() {
           </div>
         </SwiperSlide>
       </Swiper>
+      </div>
     </div>
   );
 }

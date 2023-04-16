@@ -129,8 +129,29 @@ a {
   text-align: left;
   color: #929292;
 }
+.mobile-foot{
+  display: none;
+}
+
+.mob-social{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.mob-social span{
+  font-size: 18px;
+
+}
 
 @media (max-width: 768px) {
+  .desk-foot{
+    display: none;
+  }
+  .mobile-foot{
+    display: block;
+  }
   .footer {
     grid-template-columns: repeat(1, auto);
     gap: 4rem;

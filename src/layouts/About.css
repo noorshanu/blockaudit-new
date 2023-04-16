@@ -322,7 +322,19 @@ box-shadow: 0px 0px 44px rgba(255, 22, 22, 0.32);
 .mobo-info{
   display: none;
 }
+
 @media (max-width: 768px) {
+  .why-head h1 {
+    margin-top: 30px;
+    font-family: Space Grotesk;
+    font-size: 40px;
+
+  }
+  .why-head p {
+    margin-top: 30px;
+    font-family: "Brinnan reg";
+    font-size: 16px;
+  }
   .content {
     position: relative;
     z-index: 1;

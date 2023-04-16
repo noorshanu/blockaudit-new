@@ -82,3 +82,35 @@ text-align: left;
     z-index: 4;
     background: linear-gradient(90deg, #141414d1 30.96%, rgb(10 9 8) 52%);
 }
+.team-desktop{
+    display: block;
+}
+@media (max-width:768px) {
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+        left: 1% !important;
+        right: auto;
+    }
+    
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        right: 1% !important;
+        left: auto;
+    }
+    .swiper-slide{
+        width: 100% !important;
+        }
+    .team-desktop{
+        display: none;
+    }
+    .black-grad-left{
+        display: none;
+    }
+    .black-grad-right{
+        display: none;
+    }
+    .team-box{
+        margin: 7%;
+    }
+    .user-name{
+        font-size: 26px;
+    }
+}
