@@ -3,6 +3,7 @@ import "./About.css";
 
 import Block from "../assets/main-logo.png";
 import { RiShareBoxFill } from "react-icons/ri";
+import AboutMobo from "./AboutMobo";
 
 const boxVariants = [
   "scale(1)",
@@ -93,6 +94,10 @@ function About() {
               details="We develop customised security policies and provide guidance on regulatory compliances, risk management, and incident response planning."
             />
           </div>
+          <div className="mobo-info">
+          <AboutMobo/>
+          </div>
+         
         </div>
       </section>
     </main>
