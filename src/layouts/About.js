@@ -1,15 +1,8 @@
 import React from "react";
 import "./About.css";
-import HoverImage from "react-hover-image";
-import Main1 from "../assets/about/main1.png";
-import Main11 from "../assets/about/main11.png";
-import Main2 from "../assets/about/main2.png";
-import Main22 from "../assets/about/main22.png";
-import Main3 from "../assets/about/main3.png";
-import Main4 from "../assets/about/main4.png";
+
 import Block from "../assets/main-logo.png";
 import { RiShareBoxFill } from "react-icons/ri";
-import { BsTelegram } from "react-icons/bs";
 
 const boxVariants = [
   "scale(1)",
@@ -18,7 +11,7 @@ const boxVariants = [
   "scaleX(-1) scaleY(-1)",
 ];
 
-const CuttedBox = ({ variant = 0 }) => {
+const CuttedBox = ({ title, mainTitle, details, variant = 0 }) => {
   return (
     <div className="boxes">
       <div
@@ -41,12 +34,9 @@ const CuttedBox = ({ variant = 0 }) => {
       </div>
 
       <div className="content">
-        <p>Smart Contract</p>
-        <h1>AUDITS</h1>
-        <p className="con-p">
-          Trust in our expertise to ensure optimal security and performance for
-          your smart contracts within the dynamic web3 landscape.
-        </p>
+        <p>{title}</p>
+        <h1>{mainTitle}</h1>
+        <p className="con-p">{details}</p>
         <button className="btn-about fs-20px white weight-4 pointer flex-btn">
           Explore{" "}
           <span style={{ color: "#fff" }}>
@@ -74,73 +64,34 @@ function About() {
           </div>
 
           <div className="grid-about">
-            <CuttedBox />
+            <CuttedBox
+              title="Smart Contract"
+              mainTitle="AUDITS"
+              details="Trust in our expertise to ensure optimal security and performance for your smart contracts within the dynamic web3 landscape."
+            />
 
-            <CuttedBox variant={1} />
-
-            {/* <div className="boxes">
-              <HoverImage src={Main2} hoverSrc={Main22} />
-              <div className="content-2">
-                <p>Advanced</p>
-                <h1>Pen Test</h1>
-                <p className="con-p">
-                  Utilising advanced techniques to identify and eliminate
-                  potential security risks, you can rest assured that your
-                  project is secure and optimised.
-                </p>
-                <button className="btn-about fs-20px white weight-4 pointer flex-btn">
-                  Explore{" "}
-                  <span style={{ color: "#fff" }}>
-                    <RiShareBoxFill />
-                  </span>{" "}
-                </button>
-              </div>
-            </div> */}
+            <CuttedBox
+              variant={1}
+              title="Advanced"
+              mainTitle="Pen Test"
+              details="Utilising advanced techniques to identify and eliminate potential security risks, you can rest assured that your project is secure and optimised."
+            />
 
             <img src={Block} className="center-logo" alt="" />
 
-            <CuttedBox variant={2} />
+            <CuttedBox
+              variant={2}
+              title="Risk"
+              mainTitle="Management"
+              details="Ensure industry-standard methodologies to evaluate your projects risk profile and identify and mitigate potential threats to your digital infrastructure."
+            />
 
-            <CuttedBox variant={3} />
-
-            {/* <div className="boxes">
-              <img src={Main3} alt="" />
-              <div className="content">
-                <p>Risk</p>
-                <h1>Management</h1>
-                <p className="con-p">
-                  Ensure industry-standard methodologies to evaluate your
-                  project's risk profile and identify and mitigate potential
-                  threats to your digital infrastructure.
-                </p>
-                <button className="btn-about fs-20px white weight-4 pointer flex-btn">
-                  Contact Us{" "}
-                  <span style={{ color: "#fff" }}>
-                    <BsTelegram />
-                  </span>{" "}
-                </button>
-              </div>
-            </div> */}
-
-            {/* <div className="boxes">
-              <img src={Main4} alt="" />
-              <div className="content-2">
-                <p>Security Policy</p>
-                <h1>Consultation</h1>
-                <p className="con-p">
-                  {" "}
-                  We develop customised security policies and provide guidance
-                  on regulatory compliances, risk management, and incident
-                  response planning.
-                </p>
-                <button className="btn-about fs-20px white weight-4 pointer flex-btn">
-                  Contact Us{" "}
-                  <span style={{ color: "#fff" }}>
-                    <BsTelegram />
-                  </span>{" "}
-                </button>
-              </div>
-            </div> */}
+            <CuttedBox
+              variant={3}
+              title="Security Policy"
+              mainTitle="Consultation"
+              details="We develop customised security policies and provide guidance on regulatory compliances, risk management, and incident response planning."
+            />
           </div>
         </div>
       </section>

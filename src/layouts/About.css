@@ -126,7 +126,7 @@
   position: relative;
   column-gap: 3rem;
   row-gap: 3rem;
-  /* justify-content: center; */
+  margin-top: 6rem;
 }
 
 .center-logo {
@@ -140,10 +140,7 @@
 .content {
   position: relative;
   z-index: 1;
-  /* position: absolute;
-  top: 98px;
-
-  padding: 1rem 9rem; */
+  padding: 4rem 5rem;
 }
 
 .content-2 {
@@ -159,7 +156,7 @@
   line-height: 16px;
   letter-spacing: 0em;
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 .content h1 {
   font-family: "Space Grotesk", sans-serif;
@@ -261,25 +258,14 @@
 .boxes:hover .cutted-box-gradient {
   opacity: 1;
 }
-/* .boxes:hover .cutted-box {
-  opacity: 0;
-} */
 
-.boxes img {
-  /* transition: transform 0.2s; */
-  /* transition-timing-function: ease-in; */
-}
-.boxes img:hover {
-  /* transform: scale(1.0); */
-  /* transition-timing-function: ease-in; */
-  /* transition-delay: 1s; */
-}
 .con-p {
   font-family: "Brinnan thin" !important;
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
   letter-spacing: 0em;
+  padding-bottom: 1.5rem !important;
   text-align: center;
 }
 
@@ -292,7 +278,10 @@
   display: flex;
   align-items: center;
 }
-
+.btn-about:hover{
+  background: linear-gradient(180deg, #FF1616 0%, #9A0000 100%);
+box-shadow: 0px 0px 44px rgba(255, 22, 22, 0.32);
+}
 .side-grid {
   position: absolute;
   margin-top: 46px;
