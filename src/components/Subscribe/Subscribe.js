@@ -1,6 +1,9 @@
 import React from 'react'
 import './Sub.css'
 import SubImg from '../../assets/sub.png'
+import Lottie from "lottie-react";
+import groovyWalkAnimation from "./sub.json";
+
 function Subscribe() {
   return (
     <div className='container-wrapper'>
@@ -17,7 +20,8 @@ function Subscribe() {
                     <button className='submit'>Submit</button>
                 </div>
                 <div style={{textAlign:'end'}}>
-                    <img src={SubImg} className='sub-img' alt=''/>
+                <Lottie animationData={groovyWalkAnimation} loop={true} />
+                    {/* <img src={SubImg} className='sub-img' alt=''/> */}
                 </div>
             </div>
         </div>
