@@ -20,7 +20,7 @@ function Subscribe() {
                     <button className='submit'>Submit</button>
                 </div>
                 <div style={{textAlign:'end'}}>
-                <Lottie animationData={groovyWalkAnimation} loop={true} width={'500px'} />
+                <Lottie animationData={groovyWalkAnimation} loop={true} className='sub-lottie' />
                     {/* <img src={SubImg} className='sub-img' alt=''/> */}
                 </div>
             </div>

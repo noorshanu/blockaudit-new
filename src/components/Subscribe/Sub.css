@@ -55,7 +55,13 @@ letter-spacing: 0em;
 text-align: center;
 color: #fff;
 }
+
+
 @media (max-width:768px) {
+  .sub-lottie{
+    width: 453px;
+    height: 100%;
+  }
   .sub-box{
     background: linear-gradient(180deg, #141414 0%, #0a0908  100%);
 border-radius: 20px;
@@ -63,7 +69,7 @@ border-radius: 20px;
   .sub-flex {
     padding-top:106px;
     flex-direction: column;
-    gap: 5rem;
+    gap: 0rem;
 }
   .sub-texts{
     margin: auto;
