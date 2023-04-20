@@ -6,7 +6,7 @@ padding: 60px;
 border-radius: 12px;
 }
 .swiper-slide{
-width: 750px !important;
+/* width: 750px !important; */
 }
 
 .swiper-container{
@@ -21,12 +21,12 @@ width: 750px !important;
 } 
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
-    left: 22% !important;
+    left: 23% !important;
     right: auto;
 }
 
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-    right: 25% !important;
+    right: 23% !important;
     left: auto;
 }
 
