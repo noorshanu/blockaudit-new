@@ -17,7 +17,7 @@ function Blog() {
       .catch(err => console.log(err));
   }, []);
 
-  const finalData = mediumData.slice(0, 6);
+  const finalData = mediumData.slice(0, 4);
   return (
     <div id="blog" className="container mt-3">
       <h3 className="ui horizontal header divider mt-5">
