@@ -41,6 +41,7 @@ export default function SwiperCoverflow() {
         }}
         slidesPerView={2}
         initialSlide={2}
+        loop={true}
         centeredSlides
         
         style={{ height: "600px" }}
