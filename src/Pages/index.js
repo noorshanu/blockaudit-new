@@ -9,6 +9,7 @@ import Navbar from "../layouts/Navbar";
 import AboutSection from "components/AboutSection/AboutSection";
 import Subscribe from "components/Subscribe/Subscribe";
 import SwiperCoverflow from "components/Team/Team";
+import Blog from "components/Blog";
 
 // import Popup from "../components/Popup";
 
@@ -41,6 +42,7 @@ function Home() {
 {/* <News/> */}
 {/* <Blog/> */}
     {/* <Contact /> */}
+    <Blog/>
 
     <Footer/>
     {/* <Popup/> */}
