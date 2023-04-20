@@ -155,7 +155,7 @@ function Navbar() {
             </ul>
             </div>
           
-            <aside>
+            <aside className="side-btn">
             
               <button
                 onClick={() => {
