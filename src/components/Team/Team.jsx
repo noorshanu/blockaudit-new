@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination, EffectCoverflow } from "swiper";
+import SwiperCore, { Navigation, EffectCoverflow } from "swiper";
 import CotImg from "../../assets/about/cot.png";
 import AvtImg from "../../assets/about/avatar.png";
 import "./Team.css";
@@ -8,11 +8,11 @@ import "./Team.css";
 // Import Swiper styles
 import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
-import "swiper/components/pagination/pagination.scss";
+
 import "swiper/components/effect-coverflow/effect-coverflow.scss";
 import TeamMobo from "./TeamMobo";
 
-SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
+SwiperCore.use([Navigation,  EffectCoverflow]);
 
 export default function SwiperCoverflow() {
   return (

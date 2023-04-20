@@ -154,7 +154,7 @@ function Navbar() {
               </a>
             </ul>
             </div>
-            <div>
+          
             <aside>
             
               <button
@@ -168,7 +168,7 @@ function Navbar() {
             
             </aside>
           
-          </div>
+      
           <div className="flex-btn">
           <span className=" fs-28px white weight-4 pointer mob-btn"><BsTelegram/></span>
           <button className={styles.hamburger} onClick={() => setIsOpen(true)}>
