@@ -12,7 +12,7 @@ const boxVariants = [
   "scaleX(-1) scaleY(-1)",
 ];
 
-const CuttedBox = ({ title, mainTitle, details, variant = 0 }) => {
+const CuttedBox = ({ title, mainTitle, details, buttonText, variant = 0 }) => {
   return (
     <div className="boxes">
       <div
@@ -39,7 +39,7 @@ const CuttedBox = ({ title, mainTitle, details, variant = 0 }) => {
         <h1>{mainTitle}</h1>
         <p className="con-p">{details}</p>
         <button className="btn-about fs-20px white weight-4 pointer flex-btn">
-          Explore{" "}
+          {buttonText}{" "}
           <span style={{ color: "#fff" }}>
             <RiShareBoxFill />
           </span>{" "}
@@ -68,6 +68,7 @@ function About() {
             <CuttedBox
               title="Smart Contract"
               mainTitle="AUDITS"
+              buttonText='Explore'
               details="Trust in our expertise to ensure optimal security and performance for your smart contracts within the dynamic web3 landscape."
             />
 
@@ -76,6 +77,7 @@ function About() {
               title="Advanced"
               mainTitle="Pen Test"
               details="Utilising advanced techniques to identify and eliminate potential security risks, you can rest assured that your project is secure and optimised."
+              buttonText='Explore'
             />
 
             <img src={Block} className="center-logo" alt="" />
@@ -84,6 +86,7 @@ function About() {
               variant={2}
               title="Risk"
               mainTitle="Management"
+              buttonText='Contact Us'
               details="Ensure industry-standard methodologies to evaluate your projects risk profile and identify and mitigate potential threats to your digital infrastructure."
             />
 
@@ -91,6 +94,7 @@ function About() {
               variant={3}
               title="Security Policy"
               mainTitle="Consultation"
+              buttonText='Contact Us'
               details="We develop customised security policies and provide guidance on regulatory compliances, risk management, and incident response planning."
             />
           </div>
