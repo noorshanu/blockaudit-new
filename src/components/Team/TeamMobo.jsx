@@ -12,7 +12,7 @@ SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 export default function TeamMobo() {
   return (
     <>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper navigation={true} loop={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
 
 
