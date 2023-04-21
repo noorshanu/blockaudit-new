@@ -52,7 +52,7 @@ const CuttedBox = ({ title, mainTitle, details, buttonText, variant = 0 }) => {
 function About() {
   return (
     <main>
-      <section>
+      <section id="service">
         <div className="container-wrapper">
           <div className="text-center why-head">
             <h1>What We Offer</h1>

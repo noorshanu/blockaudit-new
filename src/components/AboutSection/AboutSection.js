@@ -6,7 +6,7 @@ import Secure from '../../assets/secure.png'
 
 function AboutSection() {
   return (
-    <main>
+    <main id='about'>
         <section>
           <div className="container-wrapper">
             <div className='about-box gradient-box ' style={{position:'relative'}}>

@@ -128,13 +128,13 @@ function Navbar() {
               </div> */}
             
             <a
-                href="#contact"
+                href="#about"
                 className={`${styles.navLink} fs-20px white weight-3 pointer font-b`}
               >
             About Us
               </a>
               <a
-                href="#contact"
+                href="#service"
                 className={`${styles.navLink} fs-20px white weight-3 pointer font-b`}
               >
               Services
@@ -147,7 +147,7 @@ function Navbar() {
                 Projects
               </a>
               <a
-                href="https://github.com/Block-Audit-Report?tab=repositories"
+                href="#blog"
                 className={`${styles.navLink} fs-20px white weight-3 pointer font-b`}
               >
                 Blogs
