@@ -25,8 +25,8 @@ function Blog() {
   };
   const finalData = mediumData.slice(0, 4);
   return (
-    <div id="blog" className="container mt-3">
-      <h3 className="ui horizontal header divider mt-5">
+    <div id="blog" className="container-wrapper mt-3">
+      <h3 className=" mt-5">
         <p className='head-blog'>Blogs</p>
       </h3>
       {isLoading && <p>Fetching data from Medium!</p>}
