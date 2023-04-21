@@ -27,7 +27,7 @@ function Blog() {
   return (
     <div id="blog" className="container mt-3">
       <h3 className="ui horizontal header divider mt-5">
-        <p>Blog</p>
+        <p className='head-blog'>Blogs</p>
       </h3>
       {isLoading && <p>Fetching data from Medium!</p>}
 
@@ -39,13 +39,13 @@ function Blog() {
                 <img top width="100%" src={article.thumbnail} alt="img" />
                 </div>
                 <div>
-                  <div className='news-tex'>
+                  <div className='news-text'>
                     
                     <a href={article.link}>
                       <h2> {toText(article?.title).substring(0, 30).concat("...")}</h2>
                       </a>
                   </div>
-                  <p>{toText(article?.content).substring(0, 70).concat("...")}{" "}</p>
+                  <p className='news-text-p'>{toText(article?.content).substring(0, 70).concat("...")}{" "}</p>
                  
                
               </div>
