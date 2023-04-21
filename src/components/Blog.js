@@ -17,7 +17,12 @@ function Blog() {
       })
       .catch(err => console.log(err));
   }, []);
-
+  let toText = (node) => {
+    let tag = document?.createElement("div");
+    tag.innerHTML = node;
+    node = tag.innerText;
+    return node;
+  };
   const finalData = mediumData.slice(0, 4);
   return (
     <div id="blog" className="container mt-3">
@@ -26,7 +31,7 @@ function Blog() {
       </h3>
       {isLoading && <p>Fetching data from Medium!</p>}
 
-      <div className='flex'>
+      <div className='news-box'>
         {finalData.map(article => (
           <div md="4" className="mb-3 news-card" key={article.guid}>
             <div>
@@ -34,13 +39,14 @@ function Blog() {
                 <img top width="100%" src={article.thumbnail} alt="img" />
                 </div>
                 <div>
-                  <div>
-                    <a href={article.link}>{article.title}</a>
+                  <div className='news-tex'>
+                    
+                    <a href={article.link}>
+                      <h2> {toText(article?.title).substring(0, 30).concat("...")}</h2>
+                      </a>
                   </div>
-                  <p>
-                    Published:{" "}
-                    {moment(article.pubDate).format("dddd, MMMM Do YYYY")}
-                  </p>
+                  <p>{toText(article?.content).substring(0, 70).concat("...")}{" "}</p>
+                 
                
               </div>
             </div>
