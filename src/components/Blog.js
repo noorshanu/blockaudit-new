@@ -30,8 +30,9 @@ function Blog() {
         {finalData.map(article => (
           <div md="4" className="mb-3 news-card" key={article.guid}>
             <div>
-              <div>
+              <div className='img-b' >
                 <img top width="100%" src={article.thumbnail} alt="img" />
+                </div>
                 <div>
                   <div>
                     <a href={article.link}>{article.title}</a>
@@ -40,7 +41,7 @@ function Blog() {
                     Published:{" "}
                     {moment(article.pubDate).format("dddd, MMMM Do YYYY")}
                   </p>
-                </div>
+               
               </div>
             </div>
           </div>
