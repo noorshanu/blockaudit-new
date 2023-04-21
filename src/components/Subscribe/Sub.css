@@ -1,7 +1,7 @@
 .sub-box {
   background: linear-gradient(270deg, #0a0908 0%, #141414 100%);
   border-radius: 50px;
-  padding: 5px 55px;
+  padding: 30px 55px;
 }
 .sub-flex {
   display: flex;
