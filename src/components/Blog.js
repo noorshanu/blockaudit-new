@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react'
+import './Blog.css'
 var moment = require("moment");
 
 function Blog() {
@@ -27,7 +28,7 @@ function Blog() {
 
       <div className='flex'>
         {finalData.map(article => (
-          <div md="4" className="mb-3" key={article.guid}>
+          <div md="4" className="mb-3 news-card" key={article.guid}>
             <div>
               <div>
                 <img top width="100%" src={article.thumbnail} alt="img" />
