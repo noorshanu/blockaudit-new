@@ -1,7 +1,8 @@
 import React from 'react'
 import { RiShareBoxFill } from "react-icons/ri";
+import {BsTelegram} from 'react-icons/bs'
 
-const MobBox = ({ title, mainTitle, details,btnTitle, variant = 0 }) => {
+const MobBox = ({ title, mainTitle, details,btnTitle, Icons, variant = 0 }) => {
     return (
       <div className="box-mobo">
        
@@ -13,7 +14,7 @@ const MobBox = ({ title, mainTitle, details,btnTitle, variant = 0 }) => {
           <button className="btn-about fs-20px white weight-4 pointer flex-btn">
             {btnTitle}{" "}
             <span style={{ color: "#fff" }}>
-              <RiShareBoxFill />
+              {Icons}
             </span>{" "}
           </button>
         </div>
@@ -29,6 +30,7 @@ function AboutMobo() {
               title="Smart Contract"
               mainTitle="AUDITS"
               btnTitle='Explore'
+              Icons={<RiShareBoxFill />}
               details="Trust in our expertise to ensure optimal security and performance for your smart contracts within the dynamic web3 landscape."
             />
 
@@ -37,6 +39,7 @@ function AboutMobo() {
               title="Advanced"
               mainTitle="Pen Test"
               btnTitle='Explore'
+              Icons={<RiShareBoxFill />}
               details="Utilising advanced techniques to identify and eliminate potential security risks, you can rest assured that your project is secure and optimised."
             />
 
@@ -47,6 +50,7 @@ function AboutMobo() {
               title="Risk"
               mainTitle="Management"
               btnTitle='Contact Us'
+              Icons={<BsTelegram/>}
               details="Ensure industry-standard methodologies to evaluate your projects risk profile and identify and mitigate potential threats to your digital infrastructure."
             />
 
@@ -55,6 +59,7 @@ function AboutMobo() {
               title="Security Policy"
               mainTitle="Consultation"
               btnTitle='Contact Us'
+              Icons={<BsTelegram/>}
               details="We develop customised security policies and provide guidance on regulatory compliances, risk management, and incident response planning."
             />
     

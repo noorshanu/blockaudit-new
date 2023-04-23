@@ -3,6 +3,7 @@ import "./About.css";
 
 import Block from "../assets/main-logo.png";
 import { RiShareBoxFill } from "react-icons/ri";
+import {BsTelegram} from 'react-icons/bs'
 import AboutMobo from "./AboutMobo";
 
 const boxVariants = [
@@ -12,7 +13,7 @@ const boxVariants = [
   "scaleX(-1) scaleY(-1)",
 ];
 
-const CuttedBox = ({ title, mainTitle, details, buttonText, variant = 0 }) => {
+const CuttedBox = ({ title, mainTitle, details, buttonText,Icons, variant = 0 }) => {
   return (
     <div className="boxes">
       <div
@@ -41,7 +42,7 @@ const CuttedBox = ({ title, mainTitle, details, buttonText, variant = 0 }) => {
         <button className="btn-about fs-20px white weight-4 pointer flex-btn">
           {buttonText}{" "}
           <span style={{ color: "#fff" }}>
-            <RiShareBoxFill />
+            {Icons}
           </span>{" "}
         </button>
       </div>
@@ -69,6 +70,7 @@ function About() {
               title="Smart Contract"
               mainTitle="AUDITS"
               buttonText='Explore'
+              Icons={<RiShareBoxFill />}
               details="Trust in our expertise to ensure optimal security and performance for your smart contracts within the dynamic web3 landscape."
             />
 
@@ -76,6 +78,7 @@ function About() {
               variant={1}
               title="Advanced"
               mainTitle="Pen Test"
+              Icons={<RiShareBoxFill />}
               details="Utilising advanced techniques to identify and eliminate potential security risks, you can rest assured that your project is secure and optimised."
               buttonText='Explore'
             />
@@ -86,6 +89,7 @@ function About() {
               variant={2}
               title="Risk"
               mainTitle="Management"
+              Icons={<BsTelegram/>}
               buttonText='Contact Us'
               details="Ensure industry-standard methodologies to evaluate your projects risk profile and identify and mitigate potential threats to your digital infrastructure."
             />
@@ -95,6 +99,7 @@ function About() {
               title="Security Policy"
               mainTitle="Consultation"
               buttonText='Contact Us'
+              Icons={<BsTelegram/>}
               details="We develop customised security policies and provide guidance on regulatory compliances, risk management, and incident response planning."
             />
           </div>
