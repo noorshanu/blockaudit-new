@@ -16,7 +16,7 @@ SwiperCore.use([Navigation,  EffectCoverflow]);
 
 export default function SwiperCoverflow() {
   return (
-    <div className="conatiner-wrapper">
+    <div className="container-wrapper">
       <div className="black-grad-left">
 
       </div>

@@ -31,7 +31,7 @@ function Navbar() {
 
   useEffect(() => {
     const handler = () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 10) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -130,6 +130,7 @@ function Navbar() {
             <a
                 href="#about"
                 className={`${styles.navLink} fs-20px white weight-3 pointer font-b`}
+                
               >
             About Us
               </a>
