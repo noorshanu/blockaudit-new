@@ -69,7 +69,7 @@ text-align: left;
 .black-grad-left{
     position: absolute;
     width: 359px;
-    height: 501px;
+    height: 670px;
     left: 0px;
     z-index: 4;
     background: linear-gradient(90deg, #0a0908 28.96%, rgba(0, 0, 0, 0) 100%);
@@ -78,7 +78,7 @@ text-align: left;
 .black-grad-right{
     position: absolute;
     width: 366px;
-    height: 451px;
+    height: 670px;
     right: 0px;
     margin-top: 46px;
     z-index: 4;

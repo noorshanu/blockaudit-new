@@ -101,19 +101,19 @@ function Hero() {
               <form className="h-form">
                 <input
                   type="text"
-                  className="fs-26px white weight-3"
+                  className="fs-18px white weight-3"
                   placeholder="Source Code"
                   name="projectname"
                 />
                 <input
                   type="email"
-                  className="fs-26px white weight-3"
+                  className="fs-18px white weight-3"
                   placeholder="Email*"
                   name="email"
                 />
                 <input
                   type="text"
-                  className="fs-26px white weight-3"
+                  className="fs-18px white weight-3"
                   placeholder="Telegram / Discord"
                   name="telegram"
                 />

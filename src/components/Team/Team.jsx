@@ -23,6 +23,9 @@ export default function SwiperCoverflow() {
       <div className="black-grad-right">
 
 </div>
+<h3 className=" mt-5">
+        <p className='head-blog'>Testimonials</p>
+      </h3>
 <div className="mobo-info">
   <TeamMobo/>
 

@@ -24,11 +24,11 @@ function Home() {
     {/* <Partner/> */}
       <Hero />
     </div>
-    <div className="mb-300px">
+    <div className="mb-100px">
         <About />
       {/* <Companies /> */}
     </div>
-    <div className="mb-200px">
+    <div className="mb-100px">
       <SwiperCoverflow/>
     </div>
     <div className="mb-200px">
