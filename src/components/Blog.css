@@ -1,6 +1,6 @@
 .news-box{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   
     gap: 1.3rem;
     align-items: center;
@@ -10,12 +10,12 @@
 .news-card img{
     height: auto;
     width: 100%;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 .news-card{
     margin-bottom: 4rem;
     border: 2px solid #ff1616;
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 6px;
     height: 340px;
     text-align: start;

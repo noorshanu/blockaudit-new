@@ -25,7 +25,7 @@ function Blog() {
     node = tag.innerText;
     return node;
   };
-  const finalData = mediumData.slice(0, 4);
+  const finalData = mediumData.slice(0, 3);
   const isBellow500px = useMediaQuery("(max-width : 31.25em)");
   return (
     <>
@@ -33,7 +33,7 @@ function Blog() {
           <div className={styles.wrapper} >
       <header className={isBellow500px ? "mb-20px" : "mb-120px mt-120px"}>
         <div className="container-wrapper pad ">
-          <h1 className="text-center fs-84px white weight-6 lh-1 font-space">
+          <h1 className="text-center fs-64px white weight-6 lh-1 font-space">
             BLOGS
           </h1>
         </div>
