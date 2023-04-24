@@ -35,16 +35,18 @@ function Home() {
     <div className="mb-200px">
     <AboutSection/>
     </div>
-    <div  className="mb-200px">
-    <Subscribe/>
+    <div  className="mb-100px">
+    <Accordion/>
     </div>
     {/* <Business /> */}
- <Accordion/>
+ 
 {/* <News/> */}
 
     {/* <Contact /> */}
     <Blog/>
-
+    <div  className="mb-100px mt-50px">
+    <Subscribe/>
+    </div>
     <Footer/>
     {/* <Popup/> */}
   </div>
