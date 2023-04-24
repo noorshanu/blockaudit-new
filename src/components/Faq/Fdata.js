@@ -2,7 +2,7 @@ export const Fdata= [
     {
         id: 1,
         imgs:'https://ik.imagekit.io/l4k8brcjb/BlockAudit/Faq/Support.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1660386798395',
-        question: 'Will your team support in implementing recommendations of Audit Report?',
+        question: 'Will your team support in  recommendations of Audit Report?',
         answer:'Yes. After initial report a time frame shall be provided in which our security expert will be coordinating with your team to refractor the smart contract as per the Audit Report.'
     },
     {

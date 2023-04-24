@@ -44,7 +44,7 @@ border-top: 0.2px solid #fff6;
   cursor: pointer;
   h1 {
     padding:20px 0px 20px 5px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight:400;
   }
   span {

@@ -40,7 +40,7 @@ const Wrap = styled.div`
   cursor: pointer;
   h1 {
     padding:20px 0px 20px 5px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight:400;
   }
   span {
