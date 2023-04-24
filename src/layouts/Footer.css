@@ -132,7 +132,9 @@ a {
 .mobile-foot{
   display: none;
 }
-
+.mt-30px{
+  margin-top: 32px;
+}
 .mob-social{
   margin-top: 20px;
   margin-bottom: 20px;

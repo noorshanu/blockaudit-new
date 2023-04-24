@@ -92,7 +92,7 @@ function Hero() {
             </div>
           </main>
 
-          <aside>
+          <aside className="mt-30px">
             <div className=" bg-grand form-head ">
               <div className="text-center header-form">
                 <h1 className="">Rapid Audit Request</h1>
