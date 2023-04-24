@@ -10,6 +10,7 @@ import AboutSection from "components/AboutSection/AboutSection";
 import Subscribe from "components/Subscribe/Subscribe";
 import SwiperCoverflow from "components/Team/Team";
 import Blog from "components/Blog";
+import Accordion from "../components/Faq/Accordion";
 
 // import Popup from "../components/Popup";
 
@@ -38,9 +39,9 @@ function Home() {
     <Subscribe/>
     </div>
     {/* <Business /> */}
- {/* <Accordion/> */}
+ <Accordion/>
 {/* <News/> */}
-{/* <Blog/> */}
+
     {/* <Contact /> */}
     <Blog/>
 
