@@ -4,7 +4,8 @@ import SwiperCore, { Navigation, EffectCoverflow } from "swiper";
 import CotImg from "../../assets/about/cot.png";
 import AvtImg from "../../assets/about/avatar.png";
 import "./Team.css";
-
+import styles from "scss/layout/Business.module.scss";
+import useMediaQuery from "hooks/useMediaQuery";
 // Import Swiper styles
 import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
@@ -15,7 +16,19 @@ import TeamMobo from "./TeamMobo";
 SwiperCore.use([Navigation,  EffectCoverflow]);
 
 export default function SwiperCoverflow() {
+  const isBellow500px = useMediaQuery("(max-width : 31.25em)");
   return (
+    <>
+        <div className={styles.wrapper} >
+      <header className={isBellow500px ? "mb-20px" : "mb-120px mt-120px"}>
+        <div className="container-wrapper pad ">
+          <h1 className="text-center fs-84px white weight-6 lh-1 font-space">
+          Testimonials
+          </h1>
+        </div>
+      </header>
+</div>
+   
     <div className="container-wrapper">
       <div className="black-grad-left">
 
@@ -23,9 +36,7 @@ export default function SwiperCoverflow() {
       <div className="black-grad-right">
 
 </div>
-<h3 className=" mt-5 mb-40px">
-        <p className='head-blog'>Testimonials</p>
-      </h3>
+
 <div className="mobo-info">
   <TeamMobo/>
 
@@ -149,5 +160,6 @@ export default function SwiperCoverflow() {
       </Swiper>
       </div>
     </div>
+    </>
   );
 }

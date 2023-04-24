@@ -129,6 +129,10 @@ a {
   text-align: left;
   color: #929292;
 }
+
+.font-space{
+  font-family: Space Grotesk;
+}
 .mobile-foot{
   display: none;
 }

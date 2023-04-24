@@ -44,7 +44,7 @@ function Home() {
 
     {/* <Contact /> */}
     <Blog/>
-    <div  className="mb-100px mt-50px">
+    <div  className="mb-100px mt-100px">
     <Subscribe/>
     </div>
     <Footer/>
