@@ -21,6 +21,7 @@
     text-align: start;
     backdrop-filter: blur(2.1875rem);
     background: rgba(34, 34, 34, 0.9);
+    cursor: pointer;
    
 }
 
@@ -90,6 +91,7 @@
 .more-img{
   width: auto;
     height: 75px;
+    cursor: pointer;
 }
 
 .news-text h2{
