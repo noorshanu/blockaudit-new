@@ -1,5 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import './Blog.css'
+import styles from "scss/layout/Business.module.scss";
+import useMediaQuery from "hooks/useMediaQuery";
 var moment = require("moment");
 
 function Blog() {
@@ -24,11 +26,20 @@ function Blog() {
     return node;
   };
   const finalData = mediumData.slice(0, 4);
+  const isBellow500px = useMediaQuery("(max-width : 31.25em)");
   return (
-    <div id="blog" className="container-wrapper mt-3">
-      <h3 className=" mt-5">
-        <p className='head-blog'>Blogs</p>
-      </h3>
+    <>
+   
+          <div className={styles.wrapper} >
+      <header className={isBellow500px ? "mb-20px" : "mb-120px mt-120px"}>
+        <div className="container-wrapper pad ">
+          <h1 className="text-center fs-84px white weight-6 lh-1">
+            BLOGS
+          </h1>
+        </div>
+      </header>
+</div>
+<div id="blog" className="container-wrapper mt-3">
       {isLoading && <p>Fetching data from Medium!</p>}
 
       <div className='news-box'>
@@ -54,6 +65,7 @@ function Blog() {
         ))}
       </div>
     </div>
+    </>
   )
 }
 
