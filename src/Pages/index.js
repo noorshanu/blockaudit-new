@@ -21,11 +21,11 @@ function Home() {
   return (
     <div>
     <Navbar />
-    <div className="mb-100px mt-120px">
+    <div className="mb-50px mt-120px">
     {/* <Partner/> */}
       <Hero />
     </div>
-    <div className="mb-100px">
+    <div className="mb-50px">
         <About />
       {/* <Companies /> */}
     </div>
