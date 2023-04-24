@@ -75,7 +75,7 @@ function Navbar() {
      
               <NavLink
                 to="/"
-                className={({ isActive }) => (isActive ? 'active Navbar_navLink__lF6Im  s-20px white weight-3 pointer' : 'Navbar_navLink__lF6Im font-b fs-20px white weight-3 pointer' )}
+                className={({ isActive }) => (isActive ? 'active Navbar_navLink__lF6Im font-b  s-20px white weight-4 pointer' : 'Navbar_navLink__lF6Im font-b fs-20px white weight-4 font-b pointer' )}
                 
               >
                 Home
