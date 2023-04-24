@@ -59,15 +59,15 @@ function Blog() {
                       <h2> {toText(article?.title).substring(0, 30).concat("...")}</h2>
                       </a>
                   </div>
-                  <p className='news-text-p'>{toText(article?.content).substring(0, 70).concat("...")}{" "}</p>
-                 
+                  {/* <p className='news-text-p'>{toText(article?.content).substring(0, 70).concat("...")}{" "}</p>
+                  */}
                
               </div>
             </div>
           </div>
         ))}
-
-        <img src='images/moreicon.png' alt=''/>
+<div className='text-center'><img src='images/moreicon.png' alt='' className='more-img'/></div>
+        
       </div>
     </div>
     </>
