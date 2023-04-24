@@ -1,7 +1,7 @@
 .news-box{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  
+    grid-template-columns: repeat(4, 1fr);
+  position: relative;
     gap: 1.3rem;
     align-items: center;
     justify-content: center;

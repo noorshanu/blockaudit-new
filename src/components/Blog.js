@@ -30,15 +30,18 @@ function Blog() {
   return (
     <>
    
-          <div className={styles.wrapper} >
-      <header className={isBellow500px ? "mb-20px" : "mb-120px mt-120px"}>
-        <div className="container-wrapper pad ">
-          <h1 className="text-center fs-64px white weight-6 lh-1 font-space">
-            BLOGS
-          </h1>
-        </div>
-      </header>
+   <div className="container-wrapper">
+
+    
+<div className={styles.wrapper} >
+<header className={isBellow500px ? "mb-20px " : "mb-120px mt-120px r"}>
+<div className="container-wrapper pad ">
+  <h1 className="text-center fs-64px white weight-6 lh-1 font-space">
+  BLOGS
+  </h1>
 </div>
+</header>
+</div></div>
 <div id="blog" className="container-wrapper mt-3">
       {isLoading && <p>Fetching data from Medium!</p>}
 
@@ -63,6 +66,8 @@ function Blog() {
             </div>
           </div>
         ))}
+
+        <img src='images/moreicon.png' alt=''/>
       </div>
     </div>
     </>

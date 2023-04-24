@@ -83,15 +83,18 @@ const Accordion = () => {
 
   return (
     <> 
-      <div className={styles.wrapper} >
-      <header className={isBellow500px ? "mb-20px" : "mb-120px mt-120px"}>
-        <div className="container-wrapper pad ">
-          <h1 className="text-center fs-64px white weight-6 lh-1 font-space">
-            FAQS
-          </h1>
-        </div>
-      </header>
+  <div className="container-wrapper">
+
+    
+<div className={styles.wrapper} >
+<header className={isBellow500px ? "mb-20px " : "mb-120px mt-120px r"}>
+<div className="container-wrapper pad ">
+  <h1 className="text-center fs-64px white weight-6 lh-1 font-space">
+  FAQS
+  </h1>
 </div>
+</header>
+</div></div>
 <div className="container-wrapper ">
     <IconContext.Provider value={{ color: '#ff1616', size: '25px' }}>
       <AccordionSection>
