@@ -17,7 +17,7 @@
       left: 0;
       width: 20%;
       height: u.rem(15);
-      background: linear-gradient(90deg, #ff1616 0%, rgba(92, 21, 19, 0) 100%);
+      background: linear-gradient(90deg, rgba(255, 22, 22, 0) 0%, #FF1616 48.96%, rgba(255, 22, 22, 0) 100%);
       z-index: -20;
       transform: translateY(-50%);
     }
@@ -28,7 +28,7 @@
       right: 0;
       width: 20%;
       height: u.rem(15);
-      background: linear-gradient(90deg, #ff1616 0%, rgba(92, 21, 19, 0) 100%);
+      background: linear-gradient(90deg, rgba(255, 22, 22, 0) 0%, #FF1616 48.96%, rgba(255, 22, 22, 0) 100%);
       transform: matrix(-1, 0, 0, 1, 0, 0) translateY(-50%);
       z-index: -20;
     }

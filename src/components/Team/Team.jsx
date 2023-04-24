@@ -20,7 +20,7 @@ export default function SwiperCoverflow() {
   return (
     <>
         <div className={styles.wrapper} >
-      <header className={isBellow500px ? "mb-20px" : "mb-120px mt-120px"}>
+      <header className={isBellow500px ? "mb-20px container-wrapper" : "mb-120px mt-120px container-wrapper"}>
         <div className="container-wrapper pad ">
           <h1 className="text-center fs-64px white weight-6 lh-1 font-space">
           Testimonials
