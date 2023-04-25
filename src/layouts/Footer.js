@@ -23,11 +23,11 @@ function Footer() {
           <div className="social-section">
             <h2>Social Media</h2>
             <div>
-            <p> <a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer" className="pointer"><span><BsTwitter/> </span> Twitter</a></p> 
-              <p><span><BsLinkedin/> </span> LinkedIn</p>
-              <p><span><BsTelegram/> </span> Telegram</p>
-              <p><span><BsGithub/> </span> Github</p>
-              <p><span><BsMedium/> </span>Medium</p>
+            <p> <a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer" className="pointer"><span><BsTwitter/> </span> Telegram</a>  </p> 
+              <p><a href="https://www.linkedin.com/company/blockaudit/" target="_blank" rel="noreferrer" > <span><BsLinkedin/> </span> LinkedIn</a></p>
+              <p><a href="https://twitter.com/BlockAudit" target="_blank" rel="noreferrer" ><span><BsTelegram/> </span> Twitter</a> </p>
+              <p><a href="https://github.com/Block-Audit-Report" target="_blank" rel="noreferrer" ><span><BsGithub/> </span> Github</a> </p>
+              <p><a href="https://blockauditreport.medium.com/" target="_blank" rel="noreferrer"><span><BsMedium/> </span>Medium</a> </p>
               
             </div>
           </div>
