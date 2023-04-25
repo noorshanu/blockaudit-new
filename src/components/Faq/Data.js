@@ -2,7 +2,7 @@ export const Data= [
     {
         id: 1,
         imgs:'https://ik.imagekit.io/l4k8brcjb/BlockAudit/Faq/Requiremnet.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1660386797985',
-        question: 'Why smart contract audit is required?',
+        question: 'What is your experience in auditing smart contracts for web3 projects?',
         answer:'A single bug in smart contracts can lead to irrecoverable loss of funds or locking up of millions of dollars. Remissness leads to a breach, loss of data or theft. Therefore, auditing a smart contract is utmost important for your project.'
     },
     {
