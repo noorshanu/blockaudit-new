@@ -16,7 +16,7 @@ function Footer() {
           <div className="logo-section">
             <img src={Logo} alt="" />
             <p>Secure your web3 future with BlockAudit's expert <br/> solutions.</p>
-            <h2>contact@blockaudit.report</h2>
+            <h2>support@blockaudit.report</h2>
           </div>
         </div>
 
