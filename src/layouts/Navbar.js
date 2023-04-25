@@ -147,7 +147,7 @@ function Navbar() {
               </NavLink>
 
               <a
-                href="#blog"
+                href="https://blockauditreport.medium.com/" target="_blank" rel="noreferrer"
                 className={`${styles.navLink} fs-20px white weight-3 pointer font-b`}
               >
                 Blogs
