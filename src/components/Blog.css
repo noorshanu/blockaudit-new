@@ -10,10 +10,11 @@
 .news-card img{
     height: auto;
     width: 100%;
-    border-radius: 40px;
+    border-radius: 30px;
+    padding-bottom: 10px;
 }
 .news-card{
-    width: 306px;
+    width: 346px;
     border: 2px solid #ff1616;
     border-radius: 40px;
     padding: 6px;
