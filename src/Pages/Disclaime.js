@@ -17,7 +17,7 @@ function Disclaimes() {
     </div>
     
  
-    <Contact />
+    {/* <Contact /> */}
     <Footer/>
     <Popup/>
   </div>

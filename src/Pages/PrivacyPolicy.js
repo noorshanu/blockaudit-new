@@ -16,7 +16,7 @@ function PrivacyPolicy() {
     </div>
     
  
-    <Contact />
+    {/* <Contact /> */}
     <Footer/>
     <Popup/>
   </div>

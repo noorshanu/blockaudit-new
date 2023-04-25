@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import {BsTwitter,BsLinkedin,BsTelegram,BsGithub,BsMedium} from 'react-icons/bs'
 import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -50,18 +51,28 @@ function Footer() {
             <h2>Other Links</h2>
 
             <div className="">
-              <p href="/" className="">
+              <Link to='/privacy-policy'>  <p className="">
                 Privacy Policy
-              </p>
-              <p href="/" className="">
+              </p></Link>
+            
+            <Link to='/disclaimer'>
+            <p className="">
                 Disclaimer{" "}
               </p>
-              <p href="/terms-condition" className="">
+            </Link>
+             
+            <Link to='/terms-condition'>
+            <p className="">
                 T & C{" "}
               </p>
-              <p href="/" className="l">
-                Cookies Policy
+            </Link>
+
+            <Link to='/cookies'>
+            <p className="">
+            Cookies Policy
               </p>
+            </Link>
+          
             </div>
           </div>
         </div>
@@ -76,11 +87,11 @@ function Footer() {
             <h2>contact@blockaudit.report</h2>
 
             <div className="mob-social">
-              <span><BsTwitter/> </span> 
-              <span><BsLinkedin/> </span> 
-             <a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer"> <span><BsTelegram/> </span> </a>
-             <span><BsGithub/> </span> 
-           <span><BsMedium/> </span>
+            <p> <a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer" className="pointer"><span><BsTwitter/> </span> </a>  </p> 
+              <p><a href="https://www.linkedin.com/company/blockaudit/" target="_blank" rel="noreferrer" > <span><BsLinkedin/> </span> </a></p>
+              <p><a href="https://twitter.com/BlockAudit" target="_blank" rel="noreferrer" ><span><BsTelegram/> </span> </a> </p>
+              <p><a href="https://github.com/Block-Audit-Report" target="_blank" rel="noreferrer" ><span><BsGithub/> </span> </a> </p>
+              <p><a href="https://blockauditreport.medium.com/" target="_blank" rel="noreferrer"><span><BsMedium/> </span></a> </p>
               
             </div>
           </div>
@@ -104,18 +115,28 @@ function Footer() {
             <h2>Other Links</h2>
 
             <div className="">
-              <p href="/" className="">
+              <Link to='/privacy-policy'>  <p className="">
                 Privacy Policy
-              </p>
-              <p href="/" className="">
+              </p></Link>
+            
+            <Link to='/disclaimer'>
+            <p className="">
                 Disclaimer{" "}
               </p>
-              <p href="/terms-condition" className="">
+            </Link>
+             
+            <Link to='/terms-condition'>
+            <p className="">
                 T & C{" "}
               </p>
-              <p href="/" className="l">
-                Cookies Policy
+            </Link>
+
+            <Link to='/cookies'>
+            <p className="">
+            Cookies Policy
               </p>
+            </Link>
+          
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ function TermsAndCondition() {
     </div>
     
  
-    <Contact />
+    {/* <Contact /> */}
     <Footer/>
     <Popup/>
   </div>

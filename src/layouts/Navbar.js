@@ -5,29 +5,29 @@ import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
 // import { IKImage } from "imagekitio-react";
 import Logo from '../assets/logo.png'
-// import DropdownItem from "components/DropdownItem";
-// import { BiChevronDown } from "react-icons/bi";
-// import useMediaQuery from "hooks/useMediaQuery";
+import DropdownItem from "components/DropdownItem";
+import { BiChevronDown } from "react-icons/bi";
+import useMediaQuery from "hooks/useMediaQuery";
 import Model from '../components/Model'
-import {NavLink} from 'react-router-dom'
+import {NavLink,Link} from 'react-router-dom'
 import {BsTelegram} from 'react-icons/bs'
 
 function Navbar() {
   const [modalOpen, setModalOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  // const [isHover, setIsHover] = useState(false);
-  // const isBellow1024px = useMediaQuery("(max-width : 64em)");
+  const [isHover, setIsHover] = useState(false);
+  const isBellow1024px = useMediaQuery("(max-width : 64em)");
   const sidebarRef = OutsideClickDetector(() => {
     setIsOpen(false);
   });
-  // const dropdownRef = OutsideClickDetector(() => {
-  //   setIsHover(false);
-  // });
+  const dropdownRef = OutsideClickDetector(() => {
+    setIsHover(false);
+  });
 
-  // const dropdownToggler = () => {
-  //   setIsHover((val) => !val);
-  // };
+  const dropdownToggler = () => {
+    setIsHover((val) => !val);
+  };
 
   useEffect(() => {
     const handler = () => {
@@ -58,7 +58,10 @@ function Navbar() {
            
             alt=""
           /> */}
+          <Link to='/'>
           <img src={Logo} alt=""  className={styles.logo}/>
+          </Link>
+         
 
           <div
             className={`${styles.right} ${isOpen ? styles.show : ""}`}
@@ -80,12 +83,12 @@ function Navbar() {
               >
                 Home
               </NavLink>
-              {/* <div
+              <div
                 className={`${styles.navLink} ${styles.isDropdown}`}
                 ref={dropdownRef}
               >
                 <button
-                  className={`${styles.drodpownTitle} fs-20px white weight-3 pointer`}
+                  className={`${styles.drodpownTitle} fs-20px white weight-3 pointer font-b`}
                   onMouseEnter={() =>
                     isBellow1024px ? null : setIsHover(true)
                   }
@@ -125,7 +128,7 @@ function Navbar() {
                   <DropdownItem title="Due Diligence" icon="icons/reporting.svg" />
                   </NavLink>
                 </div>
-              </div> */}
+              </div>
             
             <a
                 href="#about"
@@ -134,12 +137,7 @@ function Navbar() {
               >
             About Us
               </a>
-              <a
-                href="#service"
-                className={`${styles.navLink} fs-20px white weight-3 pointer font-b`}
-              >
-              Services
-              </a>
+          
 
               <NavLink
                 to="/projects" 
