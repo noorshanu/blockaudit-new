@@ -111,21 +111,21 @@ function Navbar() {
                   }
                 >
                  <NavLink to="/audit-service"  className={({ isActive }) => (isActive ? 'active pointer' : ' pointer' )}>
-                  <DropdownItem title="Audit" icon="icons/automated.svg" />
+                  <DropdownItem title="Audits" icon="icons/automated.svg" />
                   </NavLink>
                  
                  <NavLink to="/kyc-service"  className={({ isActive }) => (isActive ? 'active pointer' : ' pointer' )}> 
                  <DropdownItem
-                    title="KYC"
+                    title="Pen Test"
                     icon="icons/solidity.svg"
                   
                   />
                   </NavLink>
                   <NavLink to="/escrow-service"  className={({ isActive }) => (isActive ? 'active pointer' : ' pointer' )}>
-                  <DropdownItem title="Escrow" icon="icons/recommendation.svg" />
+                  <DropdownItem title="management" icon="icons/recommendation.svg" />
                   </NavLink>
                   <NavLink to="/due-diligence-service"  className={({ isActive }) => (isActive ? 'active pointer' : ' pointer' )}>
-                  <DropdownItem title="Due Diligence" icon="icons/reporting.svg" />
+                  <DropdownItem title="Consultation" icon="icons/reporting.svg" />
                   </NavLink>
                 </div>
               </div>
