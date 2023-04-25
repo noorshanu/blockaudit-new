@@ -1,7 +1,7 @@
 .team-box{
     background: linear-gradient(180deg, rgba(77, 77, 77, 0.38) 0%, rgba(16, 16, 16, 0.12) 100%);
 box-shadow: inset 0px 0px 44px rgba(0, 0, 0, 0.39);
-backdrop-filter: blur(50px);
+/* backdrop-filter: blur(50px); */
 padding: 60px;
 border-radius: 12px;
 }
