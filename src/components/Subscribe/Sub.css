@@ -59,8 +59,9 @@ color: #fff;
 
 @media (max-width:768px) {
   .sub-lottie{
-    width: 453px;
+    width: 358px;
     height: 100%;
+    margin-top: 20px;
   }
   .sub-box{
     background: linear-gradient(180deg, #141414 0%, #0a0908  100%);
