@@ -158,14 +158,12 @@ function Navbar() {
           
             <aside className="side-btn">
             
-              <button
-                onClick={() => {
-                  setModalOpen(true);
-                }}
+              <a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer"
+              
                 className='full-withradius fs-20px white weight-4 pointer flex-btn desk-btn'
               >
                 Telegram <BsTelegram/>
-              </button>
+              </a>
             
             </aside>
           

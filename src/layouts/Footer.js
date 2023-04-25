@@ -78,7 +78,7 @@ function Footer() {
             <div className="mob-social">
               <span><BsTwitter/> </span> 
               <span><BsLinkedin/> </span> 
-              <span><BsTelegram/> </span> 
+             <a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer"> <span><BsTelegram/> </span> </a>
              <span><BsGithub/> </span> 
            <span><BsMedium/> </span>
               
