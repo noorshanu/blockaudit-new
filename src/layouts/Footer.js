@@ -23,7 +23,7 @@ function Footer() {
           <div className="social-section">
             <h2>Social Media</h2>
             <div>
-              <p><span><BsTwitter/> </span> Twitter</p>
+            <p> <a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer" className="pointer"><span><BsTwitter/> </span> Twitter</a></p> 
               <p><span><BsLinkedin/> </span> LinkedIn</p>
               <p><span><BsTelegram/> </span> Telegram</p>
               <p><span><BsGithub/> </span> Github</p>

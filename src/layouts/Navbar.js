@@ -141,12 +141,13 @@ function Navbar() {
               Services
               </a>
 
-              <a
-                href="#contact"
-                className={`${styles.navLink} fs-20px white weight-3 pointer font-b`}
+              <NavLink
+                to="/projects" 
+                className={({ isActive }) => (isActive ? 'active Navbar_navLink__lF6Im  fs-20px white weight-3 pointer font-b' : 'Navbar_navLink__lF6Im fs-20px white weight-3 pointer font-b' )}
               >
                 Projects
-              </a>
+              </NavLink>
+
               <a
                 href="#blog"
                 className={`${styles.navLink} fs-20px white weight-3 pointer font-b`}

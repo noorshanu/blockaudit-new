@@ -23,7 +23,7 @@ function App() {
     <Route  exact path='/privacy-policy' element={<PrivacyPolicy/>}  />
     <Route exact path='/disclaimer' element={<Disclaime/>}/>
     <Route exact path='/pay' element={<Pay/>}/>
-    <Route exact path='/audits' element={<Audits/>}/>
+    <Route exact path='/projects' element={<Audits/>}/>
     <Route exact path='/price' element={<Price/>}/>
     <Route exact path='/kyc-service' element={<Kyc/>}/>
     <Route exact path='/audit-service' element={<AuditService/>}/>

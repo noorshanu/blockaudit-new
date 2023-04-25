@@ -1,7 +1,7 @@
 
 import Footer from "../layouts/Footer";
 
-import Contact from "../layouts/Contact";
+// import Contact from "../layouts/Contact";
 import Navbar from "../layouts/Navbar";
 import Popup from "../components/Popup";
 import Cookie from "components/Cookie";
@@ -19,7 +19,7 @@ function Cookies() {
     </div>
     
  
-    <Contact />
+    {/* <Contact /> */}
     <Footer/>
     <Popup/>
   </div>
