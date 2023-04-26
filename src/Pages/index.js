@@ -12,7 +12,7 @@ import SwiperCoverflow from "components/Team/Team";
 import Blog from "components/Blog";
 import Accordion from "../components/Faq/Accordion";
 
-// import Popup from "../components/Popup";
+import Popup from "../components/Popup";
 
 
 
@@ -48,7 +48,7 @@ function Home() {
     <Subscribe/>
     </div>
     <Footer/>
-    {/* <Popup/> */}
+    <Popup/>
   </div>
   )
 }
