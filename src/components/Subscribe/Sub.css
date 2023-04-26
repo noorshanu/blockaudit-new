@@ -74,6 +74,7 @@ border-radius: 20px;
 }
   .sub-texts{
     margin: auto;
+    text-align: center;
   }
 
   .input-sub {
