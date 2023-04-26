@@ -13,7 +13,7 @@ const boxVariants = [
   "scaleX(-1) scaleY(-1)",
 ];
 
-const CuttedBox = ({ title, mainTitle, details, buttonText,Icons, variant = 0 }) => {
+const CuttedBox = ({ title, mainTitle, details, buttonText,Icons, SoLink, variant = 0 }) => {
   return (
     <div className="boxes">
       <div
@@ -40,10 +40,10 @@ const CuttedBox = ({ title, mainTitle, details, buttonText,Icons, variant = 0 })
         <h1>{mainTitle}</h1>
         <p className="con-p">{details}</p>
         <button className="btn-about fs-20px white weight-4 pointer flex-btn">
-          {buttonText}{" "}
+         <a href={SoLink}>{buttonText}{" "}
           <span style={{ color: "#fff" }}>
             {Icons}
-          </span>{" "}
+          </span>{" "}</a> 
         </button>
       </div>
     </div>
@@ -71,6 +71,7 @@ function About() {
               mainTitle="AUDITS"
               buttonText='Explore'
               Icons={<RiShareBoxFill />}
+              SoLink='/audit-service'
               details="Trust in our expertise to ensure optimal security and performance for your smart contracts within the dynamic web3 landscape."
             />
 
@@ -78,6 +79,7 @@ function About() {
               variant={1}
               title="Advanced"
               mainTitle="Pen Test"
+              SoLink='/audit-service'
               Icons={<RiShareBoxFill />}
               details="Utilising advanced techniques to identify and eliminate potential security risks, you can rest assured that your project is secure and optimised."
               buttonText='Explore'
@@ -90,6 +92,7 @@ function About() {
               title="Risk"
               mainTitle="Management"
               Icons={<BsTelegram/>}
+              SoLink='https://t.me/BlockAuditReport'
               buttonText='Contact Us'
               details="Ensure industry-standard methodologies to evaluate your projects risk profile and identify and mitigate potential threats to your digital infrastructure."
             />
@@ -98,6 +101,7 @@ function About() {
               variant={3}
               title="Security Policy"
               mainTitle="Consultation"
+              SoLink='https://t.me/BlockAuditReport'
               buttonText='Contact Us'
               Icons={<BsTelegram/>}
               details="We develop customised security policies and provide guidance on regulatory compliances, risk management, and incident response planning."
