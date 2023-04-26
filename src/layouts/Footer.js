@@ -37,7 +37,8 @@ function Footer() {
           <div className="social-section">
             <h2>Services</h2>
             <div>
-              <p>Audits</p>
+              <Link to='/audit-service'><p>Audits</p></Link>
+            
               <p>Pen Testing</p>
               <p>Security Policies</p>
               <p>Consulting</p>

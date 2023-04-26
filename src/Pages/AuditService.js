@@ -1,6 +1,6 @@
 import Footer from "../layouts/Footer";
 
-import Contact from "../layouts/Contact";
+// import Contact from "../layouts/Contact";
 import Navbar from "../layouts/Navbar";
 import Popup from "../components/Popup";
 
@@ -15,12 +15,12 @@ function AuditService() {
     
     
    
-    <div className="margin-7">
+    <div className="margin-7 mb-200px">
     <AuditPage/>
     </div>
     
  
-    <Contact />
+    {/* <Contact /> */}
     <Footer/>
     <Popup/>
   </div>

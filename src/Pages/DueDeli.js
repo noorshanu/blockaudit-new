@@ -1,6 +1,6 @@
 import Footer from "../layouts/Footer";
 
-import Contact from "../layouts/Contact";
+// import Contact from "../layouts/Contact";
 import Navbar from "../layouts/Navbar";
 import Popup from "../components/Popup";
 
@@ -16,12 +16,12 @@ function DueDeli() {
     
     
    
-    <div className="margin-7">
+    <div className="margin-7 mb-200px ">
     <DuePage/>
     </div>
     
  
-    <Contact />
+    {/* <Contact /> */}
     <Footer/>
     <Popup/>
   </div>
