@@ -66,7 +66,7 @@ function Blog() {
             </div>
           </div>
         ))}
-<div className='text-center'><img src='images/moreicon.png' alt='' className='more-img'/></div>
+<div className='text-center'> <a href='https://blockauditreport.medium.com/'><img src='images/moreicon.png' alt='' className='more-img'/></a></div>
         
       </div>
     </div>
