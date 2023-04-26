@@ -87,9 +87,9 @@ function Footer() {
             <h2>contact@blockaudit.report</h2>
 
             <div className="mob-social">
-            <p> <a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer" className="pointer"><span><BsTwitter/> </span> </a>  </p> 
+            <p> <a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer" className="pointer"><span> <BsTelegram/></span> </a>  </p> 
               <p><a href="https://www.linkedin.com/company/blockaudit/" target="_blank" rel="noreferrer" > <span><BsLinkedin/> </span> </a></p>
-              <p><a href="https://twitter.com/BlockAudit" target="_blank" rel="noreferrer" ><span><BsTelegram/> </span> </a> </p>
+              <p><a href="https://twitter.com/BlockAudit" target="_blank" rel="noreferrer" ><span><BsTwitter/> </span> </a> </p>
               <p><a href="https://github.com/Block-Audit-Report" target="_blank" rel="noreferrer" ><span><BsGithub/> </span> </a> </p>
               <p><a href="https://blockauditreport.medium.com/" target="_blank" rel="noreferrer"><span><BsMedium/> </span></a> </p>
               

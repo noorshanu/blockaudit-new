@@ -168,7 +168,7 @@ function Navbar() {
           
       
           <div className="flex-btn">
-          <span className=" fs-28px white weight-4 pointer mob-btn"><BsTelegram/></span>
+          <span className=" fs-28px white weight-4 pointer mob-btn"><a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer" ><BsTelegram/></a></span>
           <button className={styles.hamburger} onClick={() => setIsOpen(true)}>
             <FiMenu color="white" />
           </button>
