@@ -1,131 +1,212 @@
-.team-box{
-    background: linear-gradient(180deg, rgba(77, 77, 77, 0.38) 0%, rgba(16, 16, 16, 0.12) 100%);
-box-shadow: inset 0px 0px 44px rgba(0, 0, 0, 0.39);
-/* backdrop-filter: blur(50px); */
-padding: 60px;
-border-radius: 12px;
+.team-box {
+  --radius: 12px;
+  position: relative;
+  padding: 60px;
+  z-index: 1;
 }
-.swiper-slide{
-/* width: 750px !important; */
+.team-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: -2;
+  border-radius: var(--radius);
+}
+.team-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(77, 77, 77, 0.38) 0%,
+    rgba(16, 16, 16, 0.12) 100%
+  );
+  box-shadow: inset 0px 0px 44px rgba(0, 0, 0, 0.39);
+  z-index: -1;
+  border-radius: var(--radius);
+}
+.swiper-slide {
+  /* width: 750px !important; */
 }
 
-.swiper-container{
+.swiper-container {
   padding-top: 50px !important;
   overflow: unset !important;
   z-index: 2;
 }
 
-.colon{
-    position: absolute;
-    top: -45px;
-} 
+.colon {
+  position: absolute;
+  top: -45px;
+}
 
-.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
-    left: 23% !important;
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: 23% !important;
+  right: auto;
+  color: red !important;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  right: 23% !important;
+  left: auto;
+  color: red !important;
+}
+
+.team-details p {
+  font-family: "Brinnan thin";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.avatar-flex {
+  display: flex;
+  gap: 1.25rem;
+}
+.user-name {
+  font-family: "Space Grotesk";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.desi {
+  font-family: "Brinnan thin";
+  font-size: 14px;
+  font-weight: 250;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.black-grad-left {
+  position: absolute;
+  width: 30%;
+  height: 140%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+  background: linear-gradient(90deg, #0a0908 28.96%, rgba(0, 0, 0, 0) 100%);
+  pointer-events: none;
+}
+
+.black-grad-right {
+  position: absolute;
+  width: 30%;
+  height: 140%;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+  background: linear-gradient(90deg, #1414141d 30.96%, rgb(10 9 8) 52%);
+  pointer-events: none;
+}
+
+.team-desktop {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.team-desktop-glowing-animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 50%;
+  height: 86%;
+  z-index: -1;
+  /* background: linear-gradient(109.39deg, #ff1616 0%, rgba(109, 0, 0, 0) 100%); */
+  background: rgba(255, 22, 22, 0.1);
+  filter: blur(75px);
+  /* background-size: 100% 100%;
+  background-position: 0% 0%; */
+}
+
+.team-desktop-glowing-animation::before {
+  --width: 40%;
+
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--width);
+  height: 100%;
+  background-color: #ff1616;
+  animation: moveAnimation 4s linear infinite alternate;
+}
+
+@keyframes moveAnimation {
+  0% {
+    left: 0;
+  }
+
+  30% {
+    left: 0;
+  }
+
+  70% {
+    left: calc(100% - var(--width));
+  }
+
+  100% {
+    left: calc(100% - var(--width));
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    left: 1% !important;
     right: auto;
-    color: red !important;
-}
+  }
 
-.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-    right: 23% !important;
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    right: 1% !important;
     left: auto;
-    color: red !important;
-}
-
-.team-details p{
-    font-family: 'Brinnan thin';
-font-size: 18px;
-font-weight: 400;
-line-height: 31px;
-letter-spacing: 0em;
-text-align: left;
-padding-bottom: 20px;
-
-}
-.avatar-flex{
-    display: flex;
-    gap: 1.25rem;
-}
-.user-name{
-    font-family: 'Space Grotesk';
-font-size: 35px;
-font-weight: 700;
-line-height: 35px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-
-.desi{
-    font-family: 'Brinnan thin';
-    font-size: 14px;
-    font-weight: 250;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    
-
-}
-.black-grad-left{
-    position: absolute;
-    width: 359px;
-    height: 670px;
-    left: 0px;
-    z-index: 4;
-    background: linear-gradient(90deg, #0a0908 28.96%, rgba(0, 0, 0, 0) 100%);
-}
-
-.black-grad-right{
-    position: absolute;
-    width: 366px;
-    height: 458px;
-    right: 0px;
-    margin-top: 46px;
-    z-index: 4;
-    background: linear-gradient(90deg, #1414141d 30.96%, rgb(10 9 8) 52%);
-}
-.team-desktop{
-    display: block;
-}
-@media (max-width:768px) {
-    .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
-        left: 1% !important;
-        right: auto;
-    }
-    
-    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-        right: 1% !important;
-        left: auto;
-    }
-    .swiper-slide{
-        width: 100% !important;
-        }
-    .team-desktop{
-        display: none;
-    }
-    .black-grad-left{
-        display: none;
-    }
-    .black-grad-right{
-        display: none;
-    }
-    .team-box{
-        margin: 7%;
-    }
-    .user-name{
-        font-size: 18px;
-    }
-    .team-details p{
-        font-family: 'Brinnan thin';
+  }
+  .swiper-slide {
+    width: 100% !important;
+  }
+  .team-desktop {
+    display: none;
+  }
+  .black-grad-left {
+    display: none;
+  }
+  .black-grad-right {
+    display: none;
+  }
+  .team-box {
+    margin: 7%;
+  }
+  .user-name {
+    font-size: 18px;
+  }
+  .team-details p {
+    font-family: "Brinnan thin";
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
     padding-bottom: 20px;
-    
-    }
-    .testi{
-        font-size: 35px !important;
-    }
+  }
+  .testi {
+    font-size: 35px !important;
+  }
 }
