@@ -79,7 +79,7 @@ function About() {
               variant={1}
               title="Advanced"
               mainTitle="Pen Test"
-              SoLink='/audit-service'
+              SoLink='/'
               Icons={<RiShareBoxFill />}
               details="Utilising advanced techniques to identify and eliminate potential security risks, you can rest assured that your project is secure and optimised."
               buttonText='Explore'
