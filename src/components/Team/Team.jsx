@@ -45,7 +45,7 @@ export default function SwiperCoverflow() {
             <div className="team-desktop-glowing-animation"></div>
 
             <Swiper
-              // navigation
+              navigation
 
               pagination={{ clickable: true }}
               slidesPerView={2}
