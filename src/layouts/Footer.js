@@ -26,7 +26,7 @@ function Footer() {
             <div>
             <p> <a href="https://t.me/BlockAuditReport" target="_blank" rel="noreferrer" className="pointer"><span><BsTelegram/></span> Telegram</a>  </p> 
               <p><a href="https://www.linkedin.com/company/block-audit-report" target="_blank" rel="noreferrer" > <span><BsLinkedin/> </span> LinkedIn</a></p>
-              <p><a href="https://twitter.com/BlockAudit" target="_blank" rel="noreferrer" ><span> <BsTwitter/> </span> Twitter</a> </p>
+              <p><a href="https://twitter.com/BlockAudit" target="_blank" rel="noreferrer" ><span> <BsTwitter/>  </span> Twitter</a> </p>
               <p><a href="https://github.com/Block-Audit-Report" target="_blank" rel="noreferrer" ><span><BsGithub/> </span> Github</a> </p>
               <p><a href="https://blockauditreport.medium.com/" target="_blank" rel="noreferrer"><span><BsMedium/> </span>Medium</a> </p>
               

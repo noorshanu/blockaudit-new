@@ -162,8 +162,13 @@ a {
   font-size: 18px;
 
 }
-
+.ham{
+  display: none;
+}
 @media (max-width: 768px) {
+  .ham{
+    display: flex;
+  }
   .border-top-grad {
     background: linear-gradient(270deg, #ff1616 0%, #6d0000 100%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
