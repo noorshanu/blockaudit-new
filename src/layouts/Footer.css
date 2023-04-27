@@ -165,6 +165,9 @@ a {
 .ham{
   display: none;
 }
+.pd-r{
+  padding-right: 0px !important;
+}
 @media (max-width: 768px) {
   .ham{
     display: flex;
