@@ -32,7 +32,7 @@ function Home() {
     <div className="mb-70px">
       <SwiperCoverflow/>
     </div>
-    <div className="mb-200px " style={{marginTop:'150px'}}>
+    <div className="mb-200px  mt-150px" >
     <AboutSection/>
     </div>
     <div  className="mb-100px">

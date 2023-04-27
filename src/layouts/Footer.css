@@ -168,9 +168,15 @@ a {
 .pd-r{
   padding-right: 0px !important;
 }
+.mt-150px{
+  margin-top: 150px;
+}
 @media (max-width: 768px) {
   .ham{
     display: flex;
+  }
+  .mt-150px{
+    margin-top: 50px;
   }
   .border-top-grad {
     background: linear-gradient(270deg, #ff1616 0%, #6d0000 100%);
