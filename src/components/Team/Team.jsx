@@ -46,7 +46,6 @@ export default function SwiperCoverflow() {
 
             <Swiper
               navigation
-
               pagination={{ clickable: true }}
               slidesPerView={2}
               spaceBetween={30}
@@ -66,16 +65,14 @@ export default function SwiperCoverflow() {
                   <img src={CotImg} alt="" className="colon" />
                   <div className="team-details">
                     <p>
-                      BlockAudit exceeded our expectations in providing
-                      exceptional Smart Contract Auditing and Risk Management
-                      services.
+                      BlockAudit is a highly professional smart contract audit
+                      firm that provides comprehensive reports with clear
+                      recommendations to mitigate security risks in web3
+                      projects. Their team is knowledgeable,
                     </p>
 
                     <p>
-                      Their experienced team, in-depth knowledge, and
-                      personalized approach made working with them an absolute
-                      pleasure. We highly recommend BlockAudit for top-tier web3
-                      project security and compliance services.
+                    responsive, and committed to security and risk management. They are reliable, efficient, and have been a valuable partner for many teams seeking smart contract audit services. I highly recommend BlockAudit to anyone looking for a top-tier firm to ensure the security and success of their web3 project.
                     </p>
                   </div>
                   <div className="avatar-flex">
