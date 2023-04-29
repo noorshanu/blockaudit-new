@@ -65,14 +65,11 @@ export default function SwiperCoverflow() {
                   <img src={CotImg} alt="" className="colon" />
                   <div className="team-details">
                     <p>
-                      BlockAudit is a highly professional smart contract audit
-                      firm that provides comprehensive reports with clear
-                      recommendations to mitigate security risks in web3
-                      projects. Their team is knowledgeable,
+                    BlockAudit team is knowledgeable, responsive, and committed to security and risk management.
                     </p>
 
                     <p>
-                    responsive, and committed to security and risk management. They are reliable, efficient, and have been a valuable partner for many teams seeking smart contract audit services. I highly recommend BlockAudit to anyone looking for a top-tier firm to ensure the security and success of their web3 project.
+                    They are reliable, efficient, and have been a valuable partner for many teams seeking smart contract audit services. I highly recommend BlockAudit to anyone looking for a top-tier firm to ensure the security and success of their web3 project.
                     </p>
                   </div>
                   <div className="avatar-flex">
@@ -123,16 +120,16 @@ export default function SwiperCoverflow() {
                   <img src={CotImg} alt="" className="colon" />
                   <div className="team-details">
                     <p>
-                      BlockAudit exceeded our expectations in providing
-                      exceptional Smart Contract Auditing and Risk Management
-                      services.
+                      The team at BlockAudit consists of professionals with
+                      extensive skills and experience who are committed to
+                      delivering exceptional smart contract audit services
                     </p>
 
                     <p>
-                      Their experienced team, in-depth knowledge, and
-                      personalized approach made working with them an absolute
-                      pleasure. We highly recommend BlockAudit for top-tier web3
-                      project security and compliance services.
+                      Their work reflects their dedication to excellence, and
+                      they offer excellent communication, support, and
+                      responsiveness, making them an ideal partner for any team
+                      in need of smart contract audit services.
                     </p>
                   </div>
                   <div className="avatar-flex">
@@ -148,35 +145,7 @@ export default function SwiperCoverflow() {
                 </div>
               </SwiperSlide>
 
-              <SwiperSlide>
-                <div className="team-box">
-                  <img src={CotImg} alt="" className="colon" />
-                  <div className="team-details">
-                    <p>
-                      BlockAudit exceeded our expectations in providing
-                      exceptional Smart Contract Auditing and Risk Management
-                      services.
-                    </p>
-
-                    <p>
-                      Their experienced team, in-depth knowledge, and
-                      personalized approach made working with them an absolute
-                      pleasure. We highly recommend BlockAudit for top-tier web3
-                      project security and compliance services.
-                    </p>
-                  </div>
-                  <div className="avatar-flex">
-                    <div>
-                      <img src={AvtImg} alt="" />
-                    </div>
-                    <div>
-                      <p className="user-name">John Doe</p>
-                      <p className="desi">Web3 Warriors</p>
-                      <p className="user-social">@Web3_Warriors</p>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
+        
             </Swiper>
           </div>
         </div>
