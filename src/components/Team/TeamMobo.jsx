@@ -1,7 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, EffectCoverflow } from "swiper";
 import CotImg from "../../assets/about/cot.png";
-import AvtImg from "../../assets/about/avatar.png";
+import DefiImg from "../../assets/about/99defi.jpg";
+import PttImg from "../../assets/about/potent.jpg";
+import AcedImg from "../../assets/about/aced.jpg";
 
 // import required modules
 import "swiper/swiper.scss";
@@ -21,22 +23,28 @@ export default function TeamMobo() {
           <div className="team-box">
             <img src={CotImg} alt="" className="colon" />
             <div className="team-details">
-            <p>
-                    BlockAudit team is knowledgeable, responsive, and committed to security and risk management.
-                    </p>
+              <p>
+                BlockAudit team is knowledgeable, responsive, and committed to
+                security and risk management.
+              </p>
 
-                    <p>
-                    They are reliable, efficient, and have been a valuable partner for many teams seeking smart contract audit services. I highly recommend BlockAudit to anyone looking for a top-tier firm to ensure the security and success of their web3 project.
-                    </p>
+              <p>
+                They are reliable, efficient, and have been a valuable partner
+                for many teams seeking smart contract audit services. I highly
+                recommend BlockAudit to anyone looking for a top-tier firm to
+                ensure the security and success of their web3 project.
+              </p>
             </div>
             <div className="avatar-flex">
               <div>
-                <img src={AvtImg} alt="" />
+              <img src={DefiImg} alt="" />
               </div>
               <div>
-                <p className="user-name">John Doe</p>
-                <p className="desi">Web3 Warriors</p>
-                <p className="user-social">@Web3_Warriors</p>
+              <a href="https://twitter.com/99DEFIp2p" target="_blank" rel="noreferrer">
+                      <p className="user-name">99DEFI</p>
+                      {/* <p className="desi">Web3 Warriors</p> */}
+                      <p className="user-social">@99DEFIp2p</p>
+                      </a>
               </div>
             </div>
           </div>
@@ -60,12 +68,14 @@ export default function TeamMobo() {
             </div>
             <div className="avatar-flex">
               <div>
-                <img src={AvtImg} alt="" />
+              <img src={PttImg} alt="" />
               </div>
               <div>
-                <p className="user-name">John Doe</p>
-                <p className="desi">Web3 Warriors</p>
-                <p className="user-social">@Web3_Warriors</p>
+              <a href="https://twitter.com/potent_coin" target="_blank" rel="noreferrer">
+                      <p className="user-name">Potent Coin</p>
+                      {/* <p className="desi">Web3 Warriors</p> */}
+                      <p className="user-social">@potent_coin</p>
+                      </a>
               </div>
             </div>
           </div>
@@ -75,34 +85,33 @@ export default function TeamMobo() {
           <div className="team-box">
             <img src={CotImg} alt="" className="colon" />
             <div className="team-details">
-            <p>
-                      The team at BlockAudit consists of professionals with
-                      extensive skills and experience who are committed to
-                      delivering exceptional smart contract audit services
-                    </p>
+              <p>
+                The team at BlockAudit consists of professionals with extensive
+                skills and experience who are committed to delivering
+                exceptional smart contract audit services
+              </p>
 
-                    <p>
-                      Their work reflects their dedication to excellence, and
-                      they offer excellent communication, support, and
-                      responsiveness, making them an ideal partner for any team
-                      in need of smart contract audit services.
-                    </p>
+              <p>
+                Their work reflects their dedication to excellence, and they
+                offer excellent communication, support, and responsiveness,
+                making them an ideal partner for any team in need of smart
+                contract audit services.
+              </p>
             </div>
             <div className="avatar-flex">
               <div>
-                <img src={AvtImg} alt="" />
+              <img src={AcedImg} alt="" />
               </div>
               <div>
-                <p className="user-name">John Doe</p>
-                <p className="desi">Web3 Warriors</p>
-                <p className="user-social">@Web3_Warriors</p>
+              <a href="https://twitter.com/AceDCoin" target="_blank" rel="noreferrer">
+                      <p className="user-name">AceD Coin</p>
+                      
+                      <p className="user-social">@AceDCoin</p>
+                      </a>
               </div>
             </div>
           </div>
         </SwiperSlide>
-
-      
-      
       </Swiper>
     </>
   );

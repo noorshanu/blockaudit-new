@@ -72,6 +72,12 @@
 .avatar-flex {
   display: flex;
   gap: 1.25rem;
+  align-items: center;
+}
+
+.avatar-flex img{
+  height: 95px;
+    border-radius: 50%;
 }
 .user-name {
   font-family: "Space Grotesk";

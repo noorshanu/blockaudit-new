@@ -2,7 +2,10 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, EffectCoverflow } from "swiper";
 import CotImg from "../../assets/about/cot.png";
-import AvtImg from "../../assets/about/avatar.png";
+
+import DefiImg from "../../assets/about/99defi.jpg";
+import PttImg from "../../assets/about/potent.jpg";
+import AcedImg from "../../assets/about/aced.jpg";
 import "./Team.css";
 import styles from "scss/layout/Business.module.scss";
 import useMediaQuery from "hooks/useMediaQuery";
@@ -73,14 +76,20 @@ export default function SwiperCoverflow() {
                     </p>
                   </div>
                   <div className="avatar-flex">
+                   
+
+                   
                     <div>
-                      <img src={AvtImg} alt="" />
+                      <img src={DefiImg} alt="" />
                     </div>
                     <div>
-                      <p className="user-name">John Doe</p>
-                      <p className="desi">Web3 Warriors</p>
-                      <p className="user-social">@Web3_Warriors</p>
+                    <a href="https://twitter.com/99DEFIp2p" target="_blank" rel="noreferrer">
+                      <p className="user-name">99DEFI</p>
+                      {/* <p className="desi">Web3 Warriors</p> */}
+                      <p className="user-social">@99DEFIp2p</p>
+                      </a>
                     </div>
+                   
                   </div>
                 </div>
               </SwiperSlide>
@@ -104,12 +113,14 @@ export default function SwiperCoverflow() {
                   </div>
                   <div className="avatar-flex">
                     <div>
-                      <img src={AvtImg} alt="" />
+                      <img src={PttImg} alt="" />
                     </div>
                     <div>
-                      <p className="user-name">John Doe</p>
-                      <p className="desi">Web3 Warriors</p>
-                      <p className="user-social">@Web3_Warriors</p>
+                    <a href="https://twitter.com/potent_coin" target="_blank" rel="noreferrer">
+                      <p className="user-name">Potent Coin</p>
+                      {/* <p className="desi">Web3 Warriors</p> */}
+                      <p className="user-social">@potent_coin</p>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -134,12 +145,14 @@ export default function SwiperCoverflow() {
                   </div>
                   <div className="avatar-flex">
                     <div>
-                      <img src={AvtImg} alt="" />
+                      <img src={AcedImg} alt="" />
                     </div>
                     <div>
-                      <p className="user-name">John Doe</p>
-                      <p className="desi">Web3 Warriors</p>
-                      <p className="user-social">@Web3_Warriors</p>
+                    <a href="https://twitter.com/AceDCoin" target="_blank" rel="noreferrer">
+                      <p className="user-name">AceD Coin</p>
+                      
+                      <p className="user-social">@AceDCoin</p>
+                      </a>
                     </div>
                   </div>
                 </div>
