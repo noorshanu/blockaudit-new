@@ -56,7 +56,7 @@ const Dropdown = styled.div`
  
   color: #fff;
   width: 100%;
-  height: 100px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
