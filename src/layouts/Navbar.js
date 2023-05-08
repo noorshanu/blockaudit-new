@@ -130,7 +130,7 @@ function Navbar() {
                     }
                   >
                     <DropdownItem
-                      title="management"
+                      title="Management"
                       icon="icons/recommendation.svg"
                     />
                   </NavLink>

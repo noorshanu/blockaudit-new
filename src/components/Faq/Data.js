@@ -19,14 +19,14 @@ export const Data= [
     },
     {
         id: 4,
-        imgs:'https://ik.imagekit.io/l4k8brcjb/BlockAudit/Faq/Gas.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1660386796766',
+        imgs:'https://ik.imagekit.io/l4k8brcjb/BlockAudit/Faq/security.svg?updatedAt=1683529546458',
         question: 'What are the potential security risks in my smart contract, and how will you identify and mitigate them?',
         answer:'We are well-versed in identifying and mitigating potential security risks. Common risks include logic errors, reentrancy attacks, and other vulnerabilities. We use a variety of tools and techniques to analyze the code, test the contract functionality, and review the design and architecture to ensure that it meets the project requirements and is secure. '
     },
 
     {
         id: 5,
-        imgs:'https://ik.imagekit.io/l4k8brcjb/BlockAudit/Faq/Gas.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1660386796766',
+        imgs:'https://ik.imagekit.io/l4k8brcjb/BlockAudit/Faq/website-reload.svg?updatedAt=1683529893340',
         question: 'How do you stay up-to-date with emerging web3 technologies and trends?',
         answer:'We stay up-to-date with emerging web3 technologies and trends through various means. This includes attending industry events, participating in relevant online communities and forums, and engaging with our clients to understand their specific needs and challenges. Additionally, we prioritize ongoing education and training for our team to ensure that we are equipped with the latest knowledge.'
     },
