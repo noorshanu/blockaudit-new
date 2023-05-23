@@ -14,7 +14,7 @@ export default function Audit() {
       <meta
       name="description"
       content="The only Audit Company which gives report of any Block, either its a Contract, Transaction, Rug, Liquidation, Swap or any Transfer."
-    data-rh="true"
+    
       />
       <link rel='canonical' href="/projects"/>
     </Helmet>
