@@ -1,3 +1,3 @@
-https://blockaudit-new.vercel.app/
-https://blockaudit-new.vercel.app/audit-service
-https://blockaudit-new.vercel.app/projects
+https://blockaudit.report/
+https://blockaudit.report/audit-service
+https://blockaudit.report/projects
