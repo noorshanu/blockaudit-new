@@ -13,13 +13,23 @@ import Blog from "components/Blog";
 import Accordion from "../components/Faq/Accordion";
 
 import Popup from "../components/Popup";
+import { Helmet } from "react-helmet-async";
 
 
 
 
 function Home() {
   return (
-    <div>
+    <>
+    <Helmet>
+      <title>Home</title>
+      <meta
+      name="description"
+      content="The only Audit Company which gives report of any Block, either its a Contract, Transaction, Rug, Liquidation, Swap or any Transfer."
+    data-rh="true"
+      />
+      <link rel='canonical' href="/home"/>
+    </Helmet>
     <Navbar />
     <div className="mb-50px mt-120px">
     {/* <Partner/> */}
@@ -49,7 +59,7 @@ function Home() {
     </div>
     <Footer/>
     <Popup/>
-  </div>
+  </>
   )
 }
 

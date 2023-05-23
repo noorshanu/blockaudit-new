@@ -6,11 +6,20 @@ import Popup from "../components/Popup";
 
 import AuditPage from "components/KycPage/AuditPage";
 
-
+import { Helmet } from "react-helmet-async";
 
 function AuditService() {
   return (
-    <div>
+    <>
+     <Helmet>
+      <title>Audit Service</title>
+      <meta
+      name="description"
+      content="The only Audit Company which gives report of any Block, either its a Contract, Transaction, Rug, Liquidation, Swap or any Transfer."
+    data-rh="true"
+      />
+      <link rel='canonical' href="/audit-service"/>
+    </Helmet>
     <Navbar />
     
     
@@ -23,7 +32,7 @@ function AuditService() {
     {/* <Contact /> */}
     <Footer/>
     <Popup/>
-  </div>
+  </>
   )
 }
 

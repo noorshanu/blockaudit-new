@@ -5,13 +5,18 @@ import reportWebVitals from "./reportWebVitals";
 import "scss/index.scss";
 import { IKContext } from "imagekitio-react";
 import './style.css'
+import { HelmetProvider } from "react-helmet-async";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <HelmetProvider>
     <IKContext urlEndpoint="https://ik.imagekit.io/l4k8brcjb/BlockAudit/">
       <App />
     </IKContext>
+
+    </HelmetProvider>
+   
   </React.StrictMode>
 );
 
