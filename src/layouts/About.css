@@ -154,6 +154,7 @@
   z-index: 1;
   padding: 1rem 4rem;
   margin: 10%;
+  right: 14px;
 }
 
 .content-2 {
@@ -173,7 +174,7 @@
 }
 .content h1 {
   font-family: "Space Grotesk", sans-serif;
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 51px;
   letter-spacing: 0em;

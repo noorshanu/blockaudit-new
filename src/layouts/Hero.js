@@ -1,15 +1,15 @@
 import IconCard from "components/IconCard";
 import styles from "scss/layout/Hero.module.scss";
-import { IKImage } from "imagekitio-react";
+
 import Kyc from "../assets/hero/kyc.png";
 import Audit from "../assets/hero/audit.png";
 import Consult from "../assets/hero/consult.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import useMediaQuery from "hooks/useMediaQuery";
+// import useMediaQuery from "hooks/useMediaQuery";
 
 function Hero() {
-  const isBellow1024px = useMediaQuery("(max-width : 64em)");
+  // const isBellow1024px = useMediaQuery("(max-width : 64em)");
 
   return (
     <div className={styles.heroWrapper}>
@@ -33,9 +33,8 @@ function Hero() {
               }}
               className={`${styles.splideSlider} splideSlider mb-15px`}
             >
-              <SplideSlide>
-                <h1 className="fs-150px lh-1 white weight-8">
-                  DApp<span className="red">.</span>
+              <SplideSlide className="dapp-txt">
+                <h1 className="fs-150px lh-1 white weight-8">DApp<span className="red">.</span>
                 </h1>
               </SplideSlide>
               <SplideSlide>
