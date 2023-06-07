@@ -34,7 +34,7 @@
         border-radius: 4.5px;
         transform: matrix(1, 0, 0, -1, 0, 0);
         position: absolute;
-        left: 8.5%;
+        left: 15%;
         margin-top: -16px;
         width: 22%;
         height: 20px;
@@ -59,7 +59,7 @@
     border-radius: 4.5px;
     transform: matrix(1, 0, 0, -1, 0, 0);
     position: absolute;
-    left: 8%;
+    left: 15%;
     margin-top: -76px;
     width: 54%;
     height: 20px;
@@ -80,14 +80,17 @@
     padding-bottom: 3%;
 
 }
+.ad-ad-p{
+    text-align: justify;
+}
 .side-a3-3{
     background: linear-gradient(90deg, #FF1616 0%, #970202 100%);
     border-radius: 4.5px;
     transform: matrix(1, 0, 0, -1, 0, 0);
     position: absolute;
     /* left: 64%; */
-    right: 8%;
-    margin-top: -36px;
+    right: 15%;
+    margin-top: -30px;
     width: 29%;
     height: 20px;
     z-index: -2;
@@ -97,7 +100,7 @@
     border-radius: 4.5px;
     transform: matrix(1, 0, 0, -1, 0, 0);
     position: absolute;
-    left: 8%;
+    left: 15%;
     /* right: 8%; */
     margin-top: -60px;
     width: 45%;
@@ -117,7 +120,7 @@ font-size: 35px;
 line-height: 109.5%;
 /* or 38px */
 
-text-align: right;
+text-align: justify;
 
 color: #FFFFFF;
 padding-bottom: 8%;
@@ -160,7 +163,7 @@ padding-bottom: 8%;
     text-align: center;
 }
 .ll-img img{
-    height: 50%;
+    height: 35%;
 }
 .bottom-head h1{
     padding-top: 3%;
