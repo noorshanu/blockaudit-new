@@ -22,7 +22,7 @@ function Popup() {
       // declineButtonText="Reject"
     >
      <p style={{fontSize:'14px'}}> This website uses cookies to improve the experience. Essential cookies will be stored in order to run the website. You can accept or decline to store optional
-       cookies. <a href='https://blockaudit.report/cookies' rel="noreferrer" target='_blank'><span className='cooki'>Cookie Policy</span></a>{" "} </p>
+       cookies.  </p>
     
     </CookieConsent>
   </div>
