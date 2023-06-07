@@ -4,18 +4,31 @@ import Pay from 'Pages/Pay';
 import Audits from 'Pages/Audits'
 import PrivacyPolicy from 'Pages/PrivacyPolicy';
 import TermsAndCondition from 'Pages/TermsAndCondition';
-import {BrowserRouter as Router,Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router,Routes, Route, useLocation } from 'react-router-dom'
 import Cookies from './Pages/Cookies'
 import Price from 'Pages/Price';
 import Kyc from 'Pages/Kyc';
 import AuditService from 'Pages/AuditService';
 import DueDeli from 'Pages/DueDeli';
 import Escrow from 'Pages/Escrow';
+import { useEffect } from 'react';
+
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 
 function App() {
   return (
     <Router>
+       <ScrollToTop />
     <Routes>
     <Route  exact path='/' element={<Home/>}  />
     <Route  exact path='/cookies' element={<Cookies/>}  />
