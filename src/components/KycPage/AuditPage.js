@@ -49,9 +49,9 @@ function AuditPage() {
                 </div>
               </div>
               <div className="audit-hero-2">
-                <div className="ad-ad-h2">
+                <div className="ad-ad-h2 ">
                   <h1>Smart Contract Audit</h1>
-                  <div className="side-a3-3">&nbsp;</div>
+                
                 </div>
                 <div className="ad-ad-p">
                   <p>
@@ -94,7 +94,7 @@ function AuditPage() {
               <h1>
                 Why is Smart Contract Audit Important for Blockchain Investors?
               </h1>
-              <div className="side-a2-2">&nbsp;</div>
+            
             </div>
           </div>
 
@@ -139,7 +139,7 @@ function AuditPage() {
             <div className="d-flex d-flex-2">
               <div className="ad-h1">
                 <h1>Highly Accurate Formal Verification Auditing</h1>
-                <div className="side-a2-1">&nbsp;</div>
+               
               </div>
               <div className="audit-ct ptl-12">
                 <p>
@@ -162,7 +162,7 @@ function AuditPage() {
                       Have your code reviewed by BlockAudit’s team of seasoned
                       security experts.
                     </p>
-                    <div className="left-a2-4">&nbsp;</div>
+                 
                   </div>
                 </div>
 
@@ -177,7 +177,7 @@ function AuditPage() {
                       Receive reporting and recommendations on how to remediate
                       vulnerabilities.
                     </p>
-                    <div className="left-a2-3">&nbsp;</div>
+                
                   </div>
                 </div>
 
@@ -246,7 +246,7 @@ function AuditPage() {
         <div className="container-wrapper">
           <div className="lower-h">
             <h1>BlockAudit Security Audit Fees:</h1>
-            <div className="side-a2-4">&nbsp;</div>
+         
             <p>
               The security fees for the Smart Contract security audit fees vary
               on multiple factors:
@@ -314,7 +314,7 @@ function AuditPage() {
 
           <div className="bottom-head">
             <h1>Lite Audit (Coming Soon) :</h1>
-            <div className="side-a2-5">&nbsp;</div>
+          
             <p>
               Lite Audit is a smart contract security assessment bot built by
               BlockAudit that will automate the initial blockchain project
