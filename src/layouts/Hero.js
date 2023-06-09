@@ -37,37 +37,37 @@ function Hero() {
                 <h1 className="fs-100px lh-1 white weight-8">DApp<span className="red">.</span>
                 </h1>
               </SplideSlide>
-              <SplideSlide>
+              <SplideSlide className="dapp-txt">
                 <h1 className="fs-100px lh-1 white weight-8">
                   DeFi<span className="red">.</span>
                 </h1>
               </SplideSlide>
-              <SplideSlide>
+              <SplideSlide className="dapp-txt">
                 <h1 className="fs-100px lh-1 white weight-8">
                   GameFi<span className="red">.</span>
                 </h1>
               </SplideSlide>
-              <SplideSlide>
+              <SplideSlide className="dapp-txt">
                 <h1 className="fs-100px lh-1 white weight-8">
                   P2E<span className="red">.</span>
                 </h1>
               </SplideSlide>
-              <SplideSlide>
+              <SplideSlide className="dapp-txt">
                 <h1 className="fs-100px lh-1 white weight-8">
                   Contract<span className="red">.</span>
                 </h1>
               </SplideSlide>
-              <SplideSlide>
+              <SplideSlide className="dapp-txt"> 
                 <h1 className="fs-100px lh-1 white weight-8">
                   Token<span className="red">.</span>
                 </h1>
               </SplideSlide>
-              <SplideSlide>
+              <SplideSlide className="dapp-txt">
                 <h1 className="fs-100px lh-1 white weight-8">
                   Coin<span className="red">.</span>
                 </h1>
               </SplideSlide>
-              <SplideSlide>
+              <SplideSlide className="dapp-txt">
                 <h1 className="fs-100px lh-1 white weight-8">
                   Blockchain<span className="red">.</span>
                 </h1>
