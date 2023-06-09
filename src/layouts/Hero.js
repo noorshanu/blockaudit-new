@@ -68,7 +68,7 @@ function Hero() {
                 </h1>
               </SplideSlide>
               <SplideSlide className="dapp-txt">
-                <h1 className="fs-100px lh-1 white weight-8">
+                <h1 className="fs-80px lh-1 white weight-8">
                   Blockchain<span className="red">.</span>
                 </h1>
               </SplideSlide>
