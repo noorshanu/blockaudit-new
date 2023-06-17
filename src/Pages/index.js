@@ -28,7 +28,7 @@ function Home() {
       content="The only Audit Company which gives report of any Block, either its a Contract, Transaction, Rug, Liquidation, Swap or any Transfer."
     data-rh="true"
       />
-      <link rel='canonical' href="/home"/>
+      <link rel='canonical' href="https://blockaudit.report/"/>
     </Helmet>
     <Navbar />
     <div className="mb-50px mt-120px">

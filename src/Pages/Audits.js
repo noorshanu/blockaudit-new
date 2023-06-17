@@ -16,7 +16,7 @@ export default function Audit() {
       content="The only Audit Company which gives report of any Block, either its a Contract, Transaction, Rug, Liquidation, Swap or any Transfer."
     
       />
-      <link rel='canonical' href="/projects"/>
+      <link rel='canonical' href="https://blockaudit.report/audit-service"/>
     </Helmet>
     <Navbar />
     
