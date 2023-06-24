@@ -40,7 +40,7 @@ function App() {
     <Route exact path='/price' element={<Price/>}/>
     <Route exact path='/kyc-service' element={<Kyc/>}/>
     <Route exact path='/audit-service' element={<AuditService/>}/>
-    <Route exact path='/escrow-service' element={<Escrow/>}/>
+    <Route exact path='/management' element={<Escrow/>}/>
     <Route exact path='/pen-test' element={<DueDeli/>}/>
 
   

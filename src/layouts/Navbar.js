@@ -124,7 +124,7 @@ function Navbar() {
                     <DropdownItem title="Pen Test" icon="icons/solidity.svg" />
                   </NavLink>
                   <NavLink
-                    to="/"
+                    to="/management"
                     className={({ isActive }) =>
                       isActive ? "active pointer" : " pointer"
                     }
