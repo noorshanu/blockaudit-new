@@ -41,14 +41,19 @@ margin-top: 20px;
     font-weight: 275;
     font-size: 20px;
     line-height: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 11%;
-    text-align: justify;
+   
 }
 .audit-hero-2{
-    text-align: end;
+    
     padding-left: 14%;
+}
+.audit-hero-2 h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 .audit-hero-2 p{
     
@@ -446,6 +451,12 @@ color: #FFFFFF;
 }
 .margin-5{
     margin-top: 5%;
+}
+.box-info-pen{
+    border: 2px solid #ff1616;
+    border-radius: 26px;
+    padding: 32px 38px;
+    
 }
 @media (max-width: 700px){
     .margin-5{

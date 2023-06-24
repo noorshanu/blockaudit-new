@@ -116,7 +116,7 @@ function Navbar() {
                   </NavLink>
 
                   <NavLink
-                    to="/"
+                    to="/pen-test"
                     className={({ isActive }) =>
                       isActive ? "active pointer" : " pointer"
                     }
