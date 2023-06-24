@@ -20,7 +20,7 @@ function Escrow() {
     </div>
     
  
-    <Contact />
+  <br/>
     <Footer/>
     <Popup/>
   </div>
