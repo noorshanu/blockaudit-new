@@ -51,7 +51,6 @@ function Navbar() {
     >
       <div className="container-wrapper">
         <div className={styles.navbar}>
-      
           <Link to="/">
             <img src={Logo} alt="" className={styles.logo} />
           </Link>
@@ -91,7 +90,6 @@ function Navbar() {
                     isBellow1024px ? null : setIsHover(false)
                   }
                   onClick={() => dropdownToggler()}
-                  
                 >
                   Services <BiChevronDown color="white" />
                 </button>

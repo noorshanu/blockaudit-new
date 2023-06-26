@@ -28,8 +28,10 @@ function EscrowPage() {
         <section className="container-wrapper">
           <div className="box-info-pen">
             <h3>
-            Crypto Asset Management is the complies of all the process of buying, selling and managing digital assets  in a mannered
-way from which maximum potential profits can be made by keeping the assets secure and legal.
+              Crypto Asset Management is the complies of all the process of
+              buying, selling and managing digital assets in a mannered way from
+              which maximum potential profits can be made by keeping the assets
+              secure and legal.
             </h3>
           </div>
         </section>
