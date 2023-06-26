@@ -38,7 +38,7 @@ function App() {
     <Route exact path='/pay' element={<Pay/>}/>
     <Route exact path='/projects' element={<Audits/>}/>
     <Route exact path='/price' element={<Price/>}/>
-    <Route exact path='/kyc-service' element={<Kyc/>}/>
+    <Route exact path='/consultation-service' element={<Kyc/>}/>
     <Route exact path='/audit-service' element={<AuditService/>}/>
     <Route exact path='/management' element={<Escrow/>}/>
     <Route exact path='/pen-test' element={<DueDeli/>}/>

@@ -62,18 +62,18 @@ function EscrowPage() {
                 </div>
               </div>
               <div className="audit-hero">
-                <h1>Benifits of Pentest.</h1>
+                <h1>Why it is Important ?</h1>
                 <p>
-                  Any bugs or security risk is well identified by attacking
-                  simulation.
+                  Hackers always target to hack crypto assets. Crypto wealth
+                  manager keeps your assets safe.
                 </p>
                 <p>
-                  Security risk is reduced to a great extent by identifying and
-                  implementing appropriate security controls..{" "}
+                  Cryptocurrencies are partially or fully unregulated. Assets
+                  must needed to be managed legally.
                 </p>
                 <p>
-                  The security posture is improved by attacking from different
-                  aspects.{" "}
+                  Unlike traditional stock and bonds its the latest tech asset
+                  class, it needs proper knowledge and analysis to manage.
                 </p>
 
                 {/* <a className='btn-2 fs-20px white weight-4 pointer' href='/'>Request A Quote Now!</a> */}
@@ -90,18 +90,17 @@ function EscrowPage() {
                   <h1>What we offer?</h1>
                 </div>
                 <p>
-                  we do test on web applications by focusing vulnerabilities in
-                  web applications that interact with a blockchain system.
+                  A personal manager with a great expertise and experie- nce to
+                  manage your portfolio.
                 </p>
                 <p>
-                  We focus on vulnerabilities in application programming
-                  interfaces (APIs) that are used to interact with a blockchain
-                  system.
+                  Blockaudit security engineeers provide security to your assets
+                  24*7
                 </p>
-                <p>We do a proper test on network infrastructure.</p>
+
                 <p>
-                  We test everything in the operating systems and other software
-                  systems that are used to support a blockchain system.
+                  Compliance with all legal laws and regulations. It avoids any
+                  legal problems associated with your crypto investment.
                 </p>
               </div>
 
@@ -158,19 +157,29 @@ function EscrowPage() {
               </div>
               <br />
               <div className="ds-box">
-                <p>Being security expert we guarantee your assets security.</p>
+                <p>
+                  Hackers always target to hack crypto assets. Crypto wealth
+                  manager keeps your assets safe.
+                </p>
               </div>
 
               <div className="ds-box">
                 <p>
-                  Completed 2500+ crypto projects and having a great experience
-                  to grow your portfolio.
+                  Cryptocurrencies are partially or fully unregulated. Assets
+                  must needed to be managed legally.
                 </p>
               </div>
               <div className="ds-box">
                 <p>
-                  Our legalisation team always keeps you regulated and
-                  transparent in laws of different countries.
+                  Unlike traditional stock and bonds its the latest tech asset
+                  class, it needs proper knowledge and analysis to manage.
+                </p>
+              </div>
+              <div className="ds-box">
+                <p>
+                  Volatility of crypto assets makes it difficult to make a
+                  Decision for investment. Wealth manager decide safely to
+                  invest.
                 </p>
               </div>
             </div>

@@ -133,7 +133,7 @@ function Navbar() {
                     />
                   </NavLink>
                   <NavLink
-                    to="/"
+                    to="/consultation-service"
                     className={({ isActive }) =>
                       isActive ? "active pointer" : " pointer"
                     }
