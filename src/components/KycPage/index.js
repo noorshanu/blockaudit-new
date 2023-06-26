@@ -1,9 +1,9 @@
-import React from 'react'
-import './Kyc.css'
+import React from "react";
+import "./Kyc.css";
 function KycPage() {
   return (
     <>
-  <div className="container-Audit">
+      <div className="container-Audit">
         <section className="margin-10 audit-section">
           <div className="container-wrapper">
             <div className="d-flex">
@@ -28,9 +28,10 @@ function KycPage() {
         <section className="container-wrapper">
           <div className="box-info-pen">
             <h3>
-            Consultation is a Service that provides advice and suggestions to cryptocurrency related matters. It can be for individual or
-company. The service includes blockchain technology, tokenomics, regulatory compliance, security, and investment
-strategies.
+              Consultation is a Service that provides advice and suggestions to
+              cryptocurrency related matters. It can be for individual or
+              company. The service includes blockchain technology, tokenomics,
+              regulatory compliance, security, and investment strategies.
             </h3>
           </div>
         </section>
@@ -63,22 +64,21 @@ strategies.
               <div className="audit-hero">
                 <h1>Benifits of consultation.</h1>
                 <p>
-                By our consultation you can access to a wide range of 
-expertise like Trading, Investment, Compliance
+                  By our consultation you can access to a wide range of
+                  expertise like Trading, Investment, Compliance
                 </p>
                 <p>
-                The risk of hacking or loosing your assets through investment 
-is reduced to a great extent. 
+                  The risk of hacking or loosing your assets through investment
+                  is reduced to a great extent.
                 </p>
                 <p>
-                The earning efficiency with potential for your limited assets
-increases significantly.
- 
+                  The earning efficiency with potential for your limited assets
+                  increases significantly.
                 </p>
-                <p>You can spread your business to different market through gui-
-dance.
-
-</p>
+                <p>
+                  You can spread your business to different market through gui-
+                  dance.
+                </p>
 
                 {/* <a className='btn-2 fs-20px white weight-4 pointer' href='/'>Request A Quote Now!</a> */}
               </div>
@@ -93,21 +93,19 @@ dance.
                 <div>
                   <h1>What we offer?</h1>
                 </div>
+                <p>We offer investment advice according to your portfolio</p>
                 <p>
-                We offer investment advice according to your portfolio 
-                </p>
-                <p>
-                We make business development strategies and helps you 
-grow and broaden your businesses 
+                  We make business development strategies and helps you grow and
+                  broaden your businesses
                 </p>
 
                 <p>
-                We guide you to run your portfolio/company with regulations
-for cryptocurrencies and legal way.
+                  We guide you to run your portfolio/company with regulations
+                  for cryptocurrencies and legal way.
                 </p>
                 <p>
-                We provide security to your assets by doing duediligence 
-to the Company in which your assets are invested.
+                  We provide security to your assets by doing duediligence to
+                  the Company in which your assets are invested.
                 </p>
               </div>
 
@@ -164,31 +162,22 @@ to the Company in which your assets are invested.
               </div>
               <br />
               <div className="ds-box">
-                <p>
-                Being security expert we guarantee your assets security.
-
-
-                </p>
+                <p>Being security expert we guarantee your assets security.</p>
               </div>
 
               <div className="ds-box">
                 <p>
-                Completed 2500+ crypto projects and having a great experience 
-to grow your portfolio. 
-
-
+                  Completed 2500+ crypto projects and having a great experience
+                  to grow your portfolio.
                 </p>
               </div>
               <div className="ds-box">
                 <p>
-                Our legalisation team always keeps you regulated and transparent in
-laws of different countries.
- 
+                  Our legalisation team always keeps you regulated and
+                  transparent in laws of different countries.
                 </p>
               </div>
-              <div className="ds-box">
-            
-              </div>
+              <div className="ds-box"></div>
             </div>
             <div className="audit-im">
               <img
@@ -211,11 +200,8 @@ laws of different countries.
           </div>
         </div>
       </div>
-
     </>
-
-
-  )
+  );
 }
 
-export default KycPage
+export default KycPage;
