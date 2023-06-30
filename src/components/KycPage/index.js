@@ -18,7 +18,7 @@ function KycPage() {
               </div>
               <div className="audit-img">
                 <img
-                  src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/Dashboard_2_1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394272687"
+                  src="images/consult/consult.png"
                   alt="img"
                 />
               </div>
@@ -47,16 +47,12 @@ function KycPage() {
             </div>
 
             <div className="d-flex">
-              <div className="due-img-2">
+              <div className="due-im">
                 <div className="audit-img">
+              
                   <img
-                    className="due-img"
-                    src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/Ellipse_7.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394852398"
-                    alt="4"
-                  />
-                  <img
-                    className="img-h1"
-                    src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/7_-_no_circle.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394853140"
+                    className=""
+                    src="images/consult/beni.png"
                     alt="img"
                   />
                 </div>
@@ -111,7 +107,7 @@ function KycPage() {
 
               <div className="audit-img-7">
                 <img
-                  src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/six-min.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394272647"
+                  src="images/consult/offer.png"
                   alt="img"
                 />
               </div>
