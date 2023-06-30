@@ -18,7 +18,7 @@ function EscrowPage() {
               </div>
               <div className="audit-img">
                 <img
-                  src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/Dashboard_2_1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394272687"
+                  src="images/manage/crypto.png"
                   alt="img"
                 />
               </div>
@@ -49,14 +49,10 @@ function EscrowPage() {
             <div className="d-flex">
               <div className="due-img-2">
                 <div className="audit-img">
-                  <img
-                    className="due-img"
-                    src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/Ellipse_7.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394852398"
-                    alt="4"
-                  />
+                 
                   <img
                     className="img-h1"
-                    src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/7_-_no_circle.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394853140"
+                    src="images/manage/important.png"
                     alt="img"
                   />
                 </div>
@@ -106,7 +102,7 @@ function EscrowPage() {
 
               <div className="audit-img-7">
                 <img
-                  src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/six-min.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394272647"
+                  src="images/manage/offer.png"
                   alt="img"
                 />
               </div>
@@ -186,7 +182,7 @@ function EscrowPage() {
             <div className="audit-im">
               <img
                 className="block-img-2"
-                src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/Group.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662234026416"
+                src="images/manage/differ.png"
                 alt="audit"
               />
             </div>
