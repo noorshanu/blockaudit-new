@@ -120,7 +120,7 @@ function KycPage() {
             <div>
               <div className="due-box">
                 <img
-                  src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/five-min.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394272022"
+                  src="images/main/matrix.png"
                   alt="g"
                 />
                 <p>Comparison Metrics</p>
@@ -130,7 +130,7 @@ function KycPage() {
             <div>
               <div className="due-box">
                 <img
-                  src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/Group_44.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394272358"
+                  src="images/main/trust.png"
                   alt="g"
                 />
                 <p>BlockAudit Trust Score</p>
@@ -140,7 +140,7 @@ function KycPage() {
             <div>
               <div className="due-box">
                 <img
-                  src="https://ik.imagekit.io/l4k8brcjb/BlockAudit/Audit-pdf/icon/Rectangle_85.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662394272264"
+                  src="images/main/cate.png"
                   alt="g"
                 />
                 <p>Comprehensive Category Coverage</p>
