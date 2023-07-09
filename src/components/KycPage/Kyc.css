@@ -71,6 +71,9 @@
   height: auto;
   width: 400px;
 }
+.audit-hero {
+  text-align: justify;
+}
 .due-img {
   position: absolute;
   width: 20% !important;
