@@ -102,7 +102,7 @@ function EscrowPage() {
 
               <div className="audit-img-7">
                 <img
-                  src="images/manage/offer.png"
+                  src="images/manage/offer.webp"
                   alt="img"
                 />
               </div>
@@ -183,7 +183,7 @@ function EscrowPage() {
             <div className="audit-im">
               <img
                 className="block-img-2"
-                src="images/manage/differ.png"
+                src="images/manage/differ.webp"
                 alt="audit"
               />
             </div>
