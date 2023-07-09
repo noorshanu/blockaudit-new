@@ -18,7 +18,7 @@ function KycPage() {
               </div>
               <div className="audit-img">
                 <img
-                  src="images/consult/consult.png"
+                  src="images/consult/consult.webp"
                   alt="img"
                 />
               </div>
@@ -52,7 +52,7 @@ function KycPage() {
               
                   <img
                     className=""
-                    src="images/consult/beni.png"
+                    src="images/consult/beni.webp"
                     alt="img"
                   />
                 </div>
@@ -107,7 +107,7 @@ function KycPage() {
 
               <div className="audit-img-7">
                 <img
-                  src="images/consult/offer.png"
+                  src="images/consult/offer.webp"
                   alt="img"
                 />
               </div>

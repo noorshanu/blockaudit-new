@@ -18,7 +18,7 @@ function EscrowPage() {
               </div>
               <div className="audit-img">
                 <img
-                  src="images/manage/crypto.png"
+                  src="images/manage/crypto.webp"
                   alt="img"
                 />
               </div>
@@ -52,7 +52,7 @@ function EscrowPage() {
                  
                   <img
                     className="img-h1"
-                    src="images/manage/important.png"
+                    src="images/manage/important.webp"
                     alt="img"
                   />
                 </div>
