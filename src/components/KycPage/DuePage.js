@@ -18,7 +18,7 @@ function DuePage() {
               </div>
               <div className="audit-img">
                 <img
-                  src="images/pentest.png"
+                  src="images/pentest.webp"
                   alt="img"
                   className="pentest"
                 />
@@ -53,7 +53,7 @@ function DuePage() {
               
                   <img
                     className="img-h1"
-                    src="images/pen-benfit.png"
+                    src="images/pen-benfit.webp"
                     alt="img"
                   />
                 </div>
@@ -104,7 +104,7 @@ function DuePage() {
 
               <div className="audit-img-7">
                 <img
-                  src="images/offer.png"
+                  src="images/offer.webp"
                   alt="img"
                 />
               </div>
@@ -175,7 +175,7 @@ function DuePage() {
             <div className="audit-im">
               <img
                 className="block-img-2"
-                src="images/differ.png"
+                src="images/differ.webp"
                 alt="audit"
               />
             </div>
